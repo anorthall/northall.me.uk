@@ -1,8 +1,9 @@
 ---
 layout: post
-title: "Test Post"
-pub_date: "28th December, 2021"
-tags: testtag testtag-two
+title: Test Post
+description: A first test post.
+pub_date: 27th December, 2021
+tags: test-tag test-tag-two
 permalink: /posts/test-post-one/
 ---
 
