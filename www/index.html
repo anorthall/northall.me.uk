@@ -1,12 +1,44 @@
 ---
 title: Andrew Northall
-description: The personal website of Andrew Northall
+description: Andrew Northall's personal blog
 layout: default
 ---
+
+<img src="/images/profile_small.jpg" class="d-none d-md-block col-md-4 mb-3 ms-md-3 rounded-circle border border-4 float-sm-end" alt="A photo of me">
+
 <h1 class="display-4">Welcome!</h1>
 
 <p class="lead">This is my website, <code>northall.me.uk</code>. This site is a work in progress, and there isn't much here.</p>
 
-<p>Please feel free to take a look at my <a href="/blog/">recent blog posts</a>, or you can contact me using the links in the menu bar at the top of the page.</p></div>
+<p>Please feel free to take a look at my recent blog posts below, or you can contact me using the links in the menu bar at the top of the page.</p>
 
-<div class="col justify-items-center"><img src="/images/profile_small.jpg" class="img-fluid border border-4 rounded-circle h-75 mx-auto d-block" alt="A photo of me"></div>
+<br />
+
+<h2 class="mb-0 mt-0 display-5 text-muted">
+    <small>Recent Posts</small>
+</h2>
+
+<hr class="col-4 mt-3 mb-3">
+
+{% for post in site.posts %}
+  <!--<hr class="col-3 col-md-4 mt-3 mb-3">-->
+
+  <h1 class="mb-0">{{ post.title }}</h1>
+
+  <small class="fw-light mt-0">Published: {{ post.pub_date }}</small>
+
+  &middot; <small class="fw-light">Tagged: {{ post.tags | join: ", " }}</small>
+
+  <div class="mt-4 mb-4"></div>
+
+  <div class="mb-4">
+    <p>{{ post.content }}</p>
+  </div>
+
+  <small class="fw-light fst-italic">
+    &mdash; Authored by <a class="link-secondary text-decoration-none" href="mailto:andrew@northall.me.uk">Andrew Northall</a>
+    &middot; <a class="link-secondary text-decoration-none" href="{{ post.url }}">Permanent link</a></small>
+  </small>
+  
+  <hr class="col-3 col-md-6 mt-4 mb-4">
+{% endfor %}
