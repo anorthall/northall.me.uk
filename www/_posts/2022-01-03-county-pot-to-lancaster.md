@@ -22,6 +22,11 @@ The footage was lit using only my 1600 lumen headtorch ([Fenix HM70R](https://st
 
 After dipping into Lancaster Hole to pre-rig my exit, I ascended into the daylight again and made my way across the fell to the dry, rocky riverbed of Ease Gill before walking up it to the County Pot entrance. This was probably the hardest and most frustrating part of the trip &mdash; it was bitterly cold, extremely windy and did not make for a pleasant walk at all. The relief once I finally got into the relative warmth of the cave was palpable. 
 
+<figure class="figure">
+    <img src="/images/posts/county_to_lancaster/main_line_terminus.jpg" alt="Main Line Terminus; a spacious chamber that is well decorated with straws" class="figure-img img-fluid rounded">
+    <figcaption class="text-center figure-caption">Checking the route description in Main Line Terminus: a beautiful, spacious junction chamber in between Stop Pot and Fall Pot (taken by <a href="https://www.instagram.com/gruxphot/">Gracie</a> on a previous trip)</figcaption>
+</figure>
+
 The Manchester Bypass route is somewhat notorious in the caving community for route finding problems although I think that this is perhaps unwarranted, I did not find it a struggle at all with the excellent <a href="https://cncc.org.uk/caving/descriptions/?sort=new">CNCC route description</a> and <a href="http://www.rrcpc.org.uk/wordpress/">RRCPC survey</a> to hand. There were a few locations where the way on was not so obvious, but quickly checking each way would reveal that one choked or was impassable, leaving only one reasonable choice.
 
 The traverse took me around six hours in total, which was quite a bit less than I was estimating. The earlier trips to familiarise myself with the system really helped here &mdash; once I got to Main Line Terminus and into the high level passages I was able to make fantastic forward speed, taking only just over ten minutes to get from the bottom of Stake Pot to the bottom of Fall Pot. There are some nice climbs in this area of the cave which I had not previously attempted, and I was quite pleased when I managed to get myself up Stake Pot and Fall Pot unassisted &mdash; the climbs are nowhere near as sketchy as they first look.
