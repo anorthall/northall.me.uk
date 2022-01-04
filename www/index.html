@@ -24,7 +24,7 @@ layout: default
 {% for post in site.posts %}
   <!--<hr class="col-3 col-md-4 mt-3 mb-3">-->
 
-  <h1 class="mb-0">{{ post.title }}</h1>
+  <h1 class="mb-0"><a class="text-decoration-none title-link" href="{{ post.url }}">{{ post.title }}</a></h1>
 
   <small class="fw-light mt-0">Published: {{ post.pub_date }}</small>
 
