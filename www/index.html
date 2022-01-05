@@ -33,9 +33,13 @@ layout: default
   <div class="mt-4 mb-4"></div>
 
   <div class="mb-4">
-    <p>{{ post.content }}</p>
+    <p>{{ post.excerpt }}</p>
   </div>
 
+  <p>
+    <a href="{{ post.url }}">Read the full post...</a>
+  </p>
+  
   <small class="fw-light fst-italic">
     &mdash; Authored by <a class="link-secondary text-decoration-none" href="mailto:andrew@northall.me.uk">Andrew Northall</a>
     &middot; <a class="link-secondary text-decoration-none" href="{{ post.url }}">Permanent link</a></small>

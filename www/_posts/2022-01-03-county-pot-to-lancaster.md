@@ -4,12 +4,15 @@ title: County Pot to Lancaster Hole trip
 description: A through trip from County Pot to Lancaster Hole, conducted on Christmas Day, 2021.
 pub_date: 3rd January, 2022
 tags: caving
+excerpt_separator: <!--more-->
 permalink: /posts/county-pot-to-lancaster-hole/
 ---
 
 On Christmas Day, 2021, I undertook a solo through trip of the Ease Gill cave system, from County Pot at the upstream end to Lancaster Hole at the downstream end. I'd previously explored the Ease Gill over a couple of trips &mdash; one into Lancaster Hole, and one from Lancaster Hole to Stop Pot and back &mdash; however this would be my first time going into County Pot and navigating the Manchester Bypass route back to the high level passages that form the "trade route" down towards Lancaster.
 
 The entire trip was filmed using my helmet mounted GoPro, and the footage is available [on my YouTube channel](https://www.youtube.com/watch?v=NT5qONvpBYA). The footage is quite good in places, especially the first half of the trip where the passages are smaller. Unfortunately, when I arrived into the gigantic dimensions of Monster Cavern where the passages enlarge significantly and remain so for the duration of the trip, the video quality degrades considerably. 
+
+<!--more-->
 
 <figure class="figure">
     <img src="/images/posts/county_to_lancaster/ease_gill_riverbed.jpg" alt="The dry, rocky riverbed of Ease Gill" class="figure-img img-fluid rounded">
