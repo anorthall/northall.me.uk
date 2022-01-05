@@ -5,7 +5,9 @@ layout: default
 <h1 class="mb-0 display-4">
     Blog <small class="text-muted">{{ page.title }}</small>
 </h1>
-<small class="fw-light mt-0">Published: {{ page.pub_date }}</small> &middot; <small class="fw-light">Tagged: {{ page.tags | join: ", " }}</small>
+<small class="fw-light mt-0">Published: {{ page.pub_date }}</small>
+
+&middot; <small class="fw-light">Tagged: {% for tag in page.tags %}<a class="title-link" href="/tags/{{ tag }}">{{ tag }}</a> {% endfor %}</small>
 
 <div class="mt-4 mb-4"></div>
 
