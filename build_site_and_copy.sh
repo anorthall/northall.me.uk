@@ -25,4 +25,3 @@ cp -rfv _site/* $WEB_ROOT
 # Copy gallery images
 cp -rfv ../gallery/public/images $WEB_ROOT/images/gallery
 
-
