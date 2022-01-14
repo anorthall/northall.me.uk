@@ -4,7 +4,7 @@
     "templates_path": "./templates",
     "images_path": "./public/images/photos",
     "thumbnails_path": "./public/images/thumbnails",
-    "thumbnail_height": 200,
+    "thumbnail_height": 250,
     "title": "Andrew Northall | Photography",
     "description": "Some of my favourite images",
     "background_photo": "burnt_skies.jpg",
