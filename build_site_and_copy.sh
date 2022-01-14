@@ -1,8 +1,28 @@
 #!/bin/bash
+# Config:
+WEB_ROOT=/home/andrew/www/northall.me.uk/www
 
+# Update from git
 git pull
+
+# Build simple-photo-gallery
+cd gallery
+source ./venv/bin/activate
+gallery-build
+cp -v public/index.html ../www/photos.html
+cd ..
+
+# Build Jekyll
 cd www
 bundle exec jekyll build
-rm -rfv /home/andrew/www/northall.me.uk/www/*
-cp -rfv _site/* /home/andrew/www/northall.me.uk/www/
+
+# Remove old files
+rm -rfv $WEB_ROOT/*
+
+# Copy Jekyll files
+cp -rfv _site/* $WEB_ROOT
+
+# Copy gallery images
+cp -rfv ../gallery/public/images $WEB_ROOT/images/gallery
+
 
