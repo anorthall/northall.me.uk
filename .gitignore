@@ -1,7 +1,14 @@
+# Jekyll
 _site/
 .sass-cache/
 .jekyll-cache/
 .jekyll-metadata
 
-.DS_Store
+# rbenv
 .ruby-version
+
+# python venv
+venv/
+
+# Mac
+.DS_Store
