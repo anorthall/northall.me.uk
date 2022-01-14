@@ -9,6 +9,7 @@ git pull
 cd gallery
 source ./venv/bin/activate
 gallery-build
+deactivate
 cp -v public/index.html ../www/photos.html
 cd ..
 
