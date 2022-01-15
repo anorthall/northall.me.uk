@@ -10,7 +10,7 @@ cd gallery
 source ./venv/bin/activate
 gallery-build
 deactivate
-cp -v public/index.html ../www/photos.html
+cp -v public/index.html ../www/photography.html
 cd ..
 
 # Build Jekyll
