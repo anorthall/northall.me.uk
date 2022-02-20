@@ -1,0 +1,20 @@
+---
+layout: post
+title: Article Title
+description: Article Description
+pub_date: 1st January, 2000
+tags: insert, tags, here
+excerpt_separator: <!--more-->
+permalink: /posts/ARTICLE-SHORT-URL/
+---
+
+Intro
+
+<!--more-->
+
+<figure class="figure">
+    <img src="IMAGE_URL" alt="ALT_TEXT" class="figure-img img-fluid rounded">
+    <figcaption class="text-center figure-caption">IMAGE CAPTION</figcaption>
+</figure>
+
+Continued article
