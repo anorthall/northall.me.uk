@@ -3,6 +3,7 @@ layout: post
 title: Article Title
 description: Article Description
 pub_date: 1st January, 2000
+author: Andrew Northall
 tags: insert, tags, here
 excerpt_separator: <!--more-->
 permalink: /posts/ARTICLE-SHORT-URL/
