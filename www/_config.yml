@@ -1,3 +1,7 @@
 url: "https://northall.me.uk"
 plugins:
  - jekyll-sitemap
+ - jekyll-feed
+
+feed:
+  path: /posts/feed.atom
