@@ -26,12 +26,14 @@ Access to the cave is by way of a private road which was built to facilitate the
 
 The views from this area (above) are spectacular and it is well worth a visit even if you are not intending to go underground. A northbound walk along the Pennine Way leads across to Cross Fell  which is the highest point in England outside of the Lake District at 893 metres. The single-track road is very steep (and therefore popular with masochistic cyclists) and great care would need to be taken in wintry conditions.
 
-The entrance to the cave is a gated vertical shaft located in a group of deep shakeholes. GPS is strongly recommended to help locate the entrance! The 'lid' required quite a lot of persuasion to open and initially we were concerned we might be unable to do so - thankfully brute force and ignorance eventually prevailed. No permit is required to descend the system, as it is on access land, however the [CNCC website][1] states that Natural England request cavers seek authority to attend via email. In our case, the trip was planned at the last minute, and we did not have time to do so.
+[Users on UKCaving][12] have pointed out that the road may be in regular use by HGVs for access to the radar station and Silverband Mine. With this in mind, it would be prudent and polite to ensure that any parking gives due consideration to large vehicles that may be trying to traverse one of the sharp bends on the road. If you are in any doubt whether an HGV can clear your parked vehicle, it would be best to make your way to the top of the road where more space is available or avoid parking on the road at all. It would be unwise to cause issues that may inhibit access to this area in future; walking to the cave without the use of this road would take at least two hours (it is over 6 km and 600m elevation) and be prohibitive for most sporting trips.
 
 <figure class="figure">
     <img src="/images/posts/knock_fell/knock_fell_entrance.jpg" alt="The entrance to Knock Fell Caverns" class="figure-img img-fluid rounded">
     <figcaption class="text-center figure-caption">The entrance is on access land and was not locked when we visited, although the <a href="https://cncc.org.uk/cave/knock-fell-caverns">CNCC website</a> lists details of Natural England who request you email them before your trip.</figcaption>
 </figure>
+
+The entrance to the cave is a gated vertical shaft located in a group of deep shakeholes. GPS is strongly recommended to help locate the entrance! The 'lid' required quite a lot of persuasion to open and initially we were concerned we might be unable to do so - thankfully brute force and ignorance eventually prevailed. No permit is required to descend the system, as it is on access land, however the [CNCC website][1] states that Natural England request cavers seek authority to attend via email. In our case, the trip was planned at the last minute, and we did not have time to do so.
 
 No SRT is required to enter the cave and the [entrance climb down][7] (8 metres) is quite straightforward even for the vertically challenged. We rigged a handline however this was not used for anything other than hauling the bag in and out.
 
@@ -74,14 +76,17 @@ The journey out from this point was quite straightforward, barring a couple of a
 
 The whole trip took around five hours, and we are both very keen to go back at some point and explore the countless passages that we did not manage to visit. I would be surprised if we traversed much more than 10% of the system on our initial trip. Knock Fell Caverns provided one of the most interesting sporting trips that I have done so far in my short caving career, and I would strongly recommend it to anyone who is yet to visit.
 
-[1]: https://cncc.org.uk/cave/knock-fell-caverns                  "CNCC: Knock Fell Caverns"
-[2]: https://en.wikipedia.org/wiki/Moorhouse_and_Cross_Fell       "Wikipedia: Moorhouse and Cross Fell"
-[3]: /images/posts/knock_fell/knock_fell_survey.jpg               "Knock Fell Caverns Survey"
-[4]: /images/posts/knock_fell/knock_fell_unannotated.png          "Knock Fell Caverns Survey (unannotated)"
-[5]: https://en.wikipedia.org/wiki/Great_Dun_Fell                 "Wikipedia: Great Dun Fell"
-[6]: https://goo.gl/maps/YMKWS9w48cnEWPPs7                        "Google Maps"
-[7]: /images/posts/knock_fell/knock_fell_entrance_climb.jpg       "Knock Fell Caverns entrance climb"
-[8]: /images/posts/knock_fell/gracie_checks_survey.jpg            "Gracie checks the survery"
-[9]: mailto:andrew@northall.me.uk?subject=Knock%20Fell%20Caverns  "Email me"
-[10]: https://bcra.org.uk/bookshop/dales.html                     "BCRA: Caves and Karst of the Yorkshire Dales"
-[11]: https://en.wikipedia.org/wiki/Storm_Eunice                  "Wikipedia: Storm Eunice"
+**Update 25/02/2022:** A passage was added advising caution regarding parking on the access road, following feedback from [users on UKCaving][12].
+
+[1]: https://cncc.org.uk/cave/knock-fell-caverns                            "CNCC: Knock Fell Caverns"
+[2]: https://en.wikipedia.org/wiki/Moorhouse_and_Cross_Fell                 "Wikipedia: Moorhouse and Cross Fell"
+[3]: /images/posts/knock_fell/knock_fell_survey.jpg                         "Knock Fell Caverns Survey"
+[4]: /images/posts/knock_fell/knock_fell_unannotated.png                    "Knock Fell Caverns Survey (unannotated)"
+[5]: https://en.wikipedia.org/wiki/Great_Dun_Fell                           "Wikipedia: Great Dun Fell"
+[6]: https://goo.gl/maps/YMKWS9w48cnEWPPs7                                  "Google Maps"
+[7]: /images/posts/knock_fell/knock_fell_entrance_climb.jpg                 "Knock Fell Caverns entrance climb"
+[8]: /images/posts/knock_fell/gracie_checks_survey.jpg                      "Gracie checks the survery"
+[9]: mailto:andrew@northall.me.uk?subject=Knock%20Fell%20Caverns            "Email me"
+[10]: https://bcra.org.uk/bookshop/dales.html                               "BCRA: Caves and Karst of the Yorkshire Dales"
+[11]: https://en.wikipedia.org/wiki/Storm_Eunice                            "Wikipedia: Storm Eunice"
+[12]: https://ukcaving.com/board/index.php?topic=29231.msg357978#msg357978  "UKCaving: Knock Fell Caverns"
