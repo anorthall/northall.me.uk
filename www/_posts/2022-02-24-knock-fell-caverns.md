@@ -11,13 +11,7 @@ permalink: /posts/knock-fell-caverns/
 
 [Knock Fell Caverns][1] is a unique trip for the caver who fancies something a bit different than the typical Yorkshire Dales stream cave. Located under the summit of Knock Fell, which is conveniently accessed from the A66 at Appleby-in-Westmorland, the cave presents a hugely varied series of interconnected passages running in a broadly north-south and east-west direction. [Wikipedia][2] states that the cave is the "most extensive maze cave system in Britain" and the navigational challenges within are not to be underestimated. The total length of the system is around 4.5 kilometres.
 
-[1]: https://cncc.org.uk/cave/knock-fell-caverns            "CNCC: Knock Fell Caverns"
-[2]: https://en.wikipedia.org/wiki/Moorhouse_and_Cross_Fell "Wikipedia: Moorhouse and Cross Fell"
-
 The publicly available [survey][3] (also available [without annotations][4]) highlights the complexity of the cave. What the survey does not show, however, is the huge variety of passage located within the system. This is a cave that has almost everything; most trips into the cave will encompass tight squeezes, as well as generously sized chambers, beautiful formations, unpleasant muddy crawls, impressively tall rifts, leisurely walking passage, boulder chokes, and (of course) testing navigation.
-
-[3]: /images/posts/knock_fell/knock_fell_survey.jpg      "Knock Fell Caverns Survey"
-[4]: /images/posts/knock_fell/knock_fell_unannotated.png "Knock Fell Caverns Survey (unannotated)"
 
 Gracie and I, when visiting on 19th February 2022, got the impression that the cave does not receive a lot of traffic. Perhaps this is due to the location outside the main Yorkshire Dales caving area, or the intimidating complexity - either way, it seems a shame! Many of the passages within looked as if they had barely visited (even on the main 'trade route' marked on the annotated survey). The impressive, orange-tinted formations located throughout the system were very well-preserved.
 
@@ -30,9 +24,6 @@ Gracie and I, when visiting on 19th February 2022, got the impression that the c
 
 Access to the cave is by way of a private road which was built to facilitate the construction of the [radar station][5] which sits atop Great Dun Fell. The road is not on many navigation devices, although it is exceptionally well surfaced. Parking at a [lay-by near the top][6] gives immediate access to the Pennine Way which can be followed for around 600 metres to get to the cave in ten minutes or less. The lay-by provides space for just one vehicle (or maybe not even that, if you have a big car), but there are several of them along the distance of the road and space for a couple or three cars together right at the top near the radar station gate.
 
-[5]: https://en.wikipedia.org/wiki/Great_Dun_Fell "Wikipedia: Great Dun Fell"
-[6]: https://goo.gl/maps/YMKWS9w48cnEWPPs7        "Google Maps"
-
 The views from this area (above) are spectacular and it is well worth a visit even if you are not intending to go underground. A northbound walk along the Pennine Way leads across to Cross Fell  which is the highest point in England outside of the Lake District at 893 metres. The single-track road is very steep (and therefore popular with masochistic cyclists) and great care would need to be taken in wintry conditions.
 
 The entrance to the cave is a gated vertical shaft located in a group of deep shakeholes. GPS is strongly recommended to help locate the entrance! The 'lid' required quite a lot of persuasion to open and initially we were concerned we might be unable to do so - thankfully brute force and ignorance eventually prevailed. No permit is required to descend the system, as it is on access land, however the [CNCC website][1] states that Natural England request cavers seek authority to attend via email. In our case, the trip was planned at the last minute, and we did not have time to do so.
@@ -43,8 +34,6 @@ The entrance to the cave is a gated vertical shaft located in a group of deep sh
 </figure>
 
 No SRT is required to enter the cave and the [entrance climb down][7] (8 metres) is quite straightforward even for the vertically challenged. We rigged a handline however this was not used for anything other than hauling the bag in and out.
-
-[7]: /images/posts/knock_fell/knock_fell_entrance_climb.jpg "Knock Fell Caverns entrance climb"
 
 A compass is absolutely essential on this trip and is required as soon as you reach the bottom of the entrance shaft. Two ways on are presented, with one being a tight connection towards the north end of the system and the more popular southern route leading to a relatively unpleasant, but short, rocky crawl towards the impressive *Scotch Corner Chamber*. Scotch Corner marks the beginning of a round trip which is suggested as a 'typical route' on the [survey][3], which we followed in an anticlockwise direction.
 
@@ -59,9 +48,6 @@ I have seen tales online of an old tape marker system which once existed within 
 
 No route description exists that I am aware of (although I welcome [corrections][9]). If it did, it would be extremely hard to follow (*turn right, then pass three lefts, then turn left, then take the second right...*), and likely not in the 'spirit' of this sort of cave. We managed quite well with just the survey and a compass, even though it was the first time we had attempted this type of navigation underground.
 
-[8]: /images/posts/knock_fell/gracie_checks_survey.jpg           "Gracie checks the survery"
-[9]: mailto:andrew@northall.me.uk?subject=Knock%20Fell%20Caverns "Email me"
-
 Whilst a good portion of the cave is pleasant walking passage, there are regular crawling sections and some parts that could reasonably be described as a squeeze. This seemed more prevalent in the southern and eastern sections of the cave, with the passage back to the entrance via the central area of the cave and the *Trans-Pennine Passage* being quite large chambers indeed. The benefit of having a route description is that one can expect that the next turn may be unpleasant - with just a survey and compass, we found ourselves staring at some junctions and wondering "Can the way on *really* be down there? Surely it's not *that*?". Often it was.
 
 <figure class="figure">
@@ -74,9 +60,6 @@ Knock Fell Caverns is a hypogenic maze cave, which means that it was not formed 
 Some of the larger chambers in the cave may have been formed by way of rock collapse at the intersections of these fault-aligned passages. The [CNCC website][1] displays a warning (published in 2015) of recent collapse within the system. Several of the boulders we encountered looked remarkably fresh and had a large amount of undisturbed dust and rock around them, even on well trafficked routes. While it would be impossible for me to say whether this was fresh collapse or not, it certainly seemed likely.
 
 The most notable implication of the way this system was formed is that there is very little water within the cave and no streamway to speak of. The passages within the system do not exhibit the typical remnants of active streamway development, such as scalloped walls. There are a few drippy avens, including one which has formed an impressively deep hole near *Scotch Corner Chamber*. We visited at the tail-end of [Storm Eunice][11] and the cave was remarkably dry.
-
-[10]: https://bcra.org.uk/bookshop/dales.html    "BCRA: Caves and Karst of the Yorkshire Dales"
-[11]: https://en.wikipedia.org/wiki/Storm_Eunice "Wikipedia: Storm Eunice"
 
 <figure class="figure">
     <img src="/images/posts/knock_fell/larger_chamber.jpg" alt="A larger chamber in Knock Fell Caverns" class="figure-img img-fluid rounded">
@@ -91,3 +74,14 @@ The journey out from this point was quite straightforward, barring a couple of a
 
 The whole trip took around five hours, and we are both very keen to go back at some point and explore the countless passages that we did not manage to visit. I would be surprised if we traversed much more than 10% of the system on our initial trip. Knock Fell Caverns provided one of the most interesting sporting trips that I have done so far in my short caving career, and I would strongly recommend it to anyone who is yet to visit.
 
+[1]: https://cncc.org.uk/cave/knock-fell-caverns                  "CNCC: Knock Fell Caverns"
+[2]: https://en.wikipedia.org/wiki/Moorhouse_and_Cross_Fell       "Wikipedia: Moorhouse and Cross Fell"
+[3]: /images/posts/knock_fell/knock_fell_survey.jpg               "Knock Fell Caverns Survey"
+[4]: /images/posts/knock_fell/knock_fell_unannotated.png          "Knock Fell Caverns Survey (unannotated)"
+[5]: https://en.wikipedia.org/wiki/Great_Dun_Fell                 "Wikipedia: Great Dun Fell"
+[6]: https://goo.gl/maps/YMKWS9w48cnEWPPs7                        "Google Maps"
+[7]: /images/posts/knock_fell/knock_fell_entrance_climb.jpg       "Knock Fell Caverns entrance climb"
+[8]: /images/posts/knock_fell/gracie_checks_survey.jpg            "Gracie checks the survery"
+[9]: mailto:andrew@northall.me.uk?subject=Knock%20Fell%20Caverns  "Email me"
+[10]: https://bcra.org.uk/bookshop/dales.html                     "BCRA: Caves and Karst of the Yorkshire Dales"
+[11]: https://en.wikipedia.org/wiki/Storm_Eunice                  "Wikipedia: Storm Eunice"
