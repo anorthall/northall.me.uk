@@ -30,6 +30,7 @@ cp gallery/public/index.html www/photos.html
 echo ""
 echo "Building Jekyll..."
 cd www
+eval "$(rbenv init -)"
 bundle exec jekyll build
 
 # Remove old files
