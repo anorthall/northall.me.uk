@@ -1,8 +1,12 @@
 #!/bin/bash
 # Config:
 WEB_ROOT=/home/andrew/www/northall.me.uk/www
+RUBY_VERSION=3.1.0
 
+# Setup environment
 cd "$(dirname "$0")"
+rbenv local $RUBY_VERSION
+rbenv rehash
 
 # Update from git
 echo "Pulling from git..."
