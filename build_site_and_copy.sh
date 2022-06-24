@@ -3,7 +3,7 @@
 WEB_ROOT=/home/andrew/www/northall.me.uk/www
 
 # Update from git
-git pull
+#git pull
 
 # Build simple-photo-gallery
 cd gallery
