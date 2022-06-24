@@ -33,5 +33,5 @@ cp -r _site/* $WEB_ROOT
 
 # Copy gallery images
 echo "Copying photo gallery images to web root..."
-cp -rfv ../gallery/public/images $WEB_ROOT/images/gallery
+cp -r ../gallery/public/images $WEB_ROOT/images/gallery
 
