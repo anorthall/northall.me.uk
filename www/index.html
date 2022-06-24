@@ -14,7 +14,7 @@ permalink: /
 <hr class="col-4 mt-3 mb-3">
 
 {% for post in site.posts %}
-  <!--<hr class="col-3 col-md-4 mt-3 mb-3">-->
+  {% if forloop.index > 1 %}<div class="divider div-transparent div-arrow-down mb-5 mt-5"></div>{% endif %}
 
   <h1 class="mb-0"><a class="text-decoration-none title-link" href="{{ post.url }}">{{ post.title }}</a></h1>
 
@@ -31,6 +31,4 @@ permalink: /
   <p>
     <a href="{{ post.url }}">Read the full post...</a>
   </p>
-  
-  <hr class="col-3 col-md-6 mt-4 mb-4">
 {% endfor %}
