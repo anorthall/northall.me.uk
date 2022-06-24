@@ -42,3 +42,4 @@ echo "Copying photo gallery images to web root..."
 cp -r ../gallery/public/images $WEB_ROOT/images/gallery
 
 echo "northall.me.uk build completed."
+
