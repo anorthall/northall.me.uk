@@ -1,6 +1,6 @@
 ---
 layout: post
-title: County Pot to Lancaster Hole trip
+title: County Pot to Lancaster Hole
 description: A through trip from County Pot to Lancaster Hole, conducted on Christmas Day, 2021.
 pub_date: 3rd January, 2022
 author: Andrew Northall
