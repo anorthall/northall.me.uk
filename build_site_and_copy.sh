@@ -2,10 +2,11 @@
 # Config:
 WEB_ROOT=/home/andrew/www/northall.me.uk/www
 
+cd "$(dirname "$0")"
+
 # Update from git
-#echo ""
-#echo "Pulling from git..."
-#git pull
+echo "Pulling from git..."
+git pull
 
 # Build simple-photo-gallery
 echo ""
@@ -33,14 +34,11 @@ echo "Removing old files from web root..."
 rm -r $WEB_ROOT/*
 
 # Copy Jekyll files
-echo ""
 echo "Copying Jekyll generated files to web root..."
 cp -r _site/* $WEB_ROOT
 
 # Copy gallery images
-echo ""
 echo "Copying photo gallery images to web root..."
 cp -r ../gallery/public/images $WEB_ROOT/images/gallery
 
-echo ""
-echo "northall.me.uk completed."
+echo "northall.me.uk build completed."
