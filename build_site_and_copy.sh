@@ -4,6 +4,7 @@ WEB_ROOT=/home/andrew/www/northall.me.uk/www
 RUBY_VERSION=3.1.0
 
 # Setup environment
+set -eu
 cd "$(dirname "$0")"
 rbenv local $RUBY_VERSION
 rbenv rehash
@@ -17,6 +18,7 @@ echo ""
 echo "Building photo gallery..."
 
 cd gallery
+# shellcheck source=/dev/null
 source ./venv/bin/activate
 gallery-build
 deactivate
@@ -36,7 +38,7 @@ bundle exec jekyll build
 # Remove old files
 echo ""
 echo "Removing old files from web root..."
-rm -r $WEB_ROOT/*
+rm -r ${WEB_ROOT:?}/*
 
 # Copy Jekyll files
 echo "Copying Jekyll generated files to web root..."
@@ -47,4 +49,3 @@ echo "Copying photo gallery images to web root..."
 cp -r ../gallery/public/images $WEB_ROOT/images/gallery
 
 echo "northall.me.uk build completed."
-
