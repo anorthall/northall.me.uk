@@ -1,15 +1,13 @@
 ---
 layout: default
 ---
+{% assign post = page %}
 
 <h1 class="mb-0 display-4">
     {{ page.title }}
 </h1>
-<small class="fw-light mt-0">Published: {{ page.pub_date }}</small>
 
-&middot; <small class="fw-light">Tagged: {% for tag in page.tags %}<a class="title-link" href="/tags/{{ tag }}">{{ tag }}</a> {% endfor %}</small>
-
-<div class="mt-4 mb-4"></div>
+{% include author_box.html %}
 
 <div class="mb-4">
   {{ page.content }}
@@ -17,5 +15,5 @@ layout: default
 
 
 <small class="fw-light fst-italic">
-  &mdash; Authored by <a class="link-secondary text-decoration-none" href="mailto:andrew@northall.me.uk">Andrew Northall</a>
+  &mdash; Authored by <a class="link-secondary text-decoration-none" href="mailto:{{ page.author_email }}">{{ page.author }}</a>
 </small>
