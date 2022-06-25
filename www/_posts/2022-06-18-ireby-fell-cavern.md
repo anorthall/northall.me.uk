@@ -25,10 +25,7 @@ After taking great care to avoid the numerous slugs, and loose paving stones, on
 
 I found the rigging relatively exhausting - particularly the "leap of faith" from the last set of traverse anchors to the anchors for the first Y-hang downwards, and the pendulum swing required to get round the corner after the narrow rift beyond the first descent. I descended quite too far in the narrow rift before realising I should've stayed high up, and this meant a mid-rope changeover and a climb back up. Half of the battle was simply locating the anchors, it seemed like none of the next rebelays were visible from the last until you got very close to them, and this meant a large amount of trial-and-error searching was required. Someone who knew the way would've been useful here! Overall, all this added to the fun and we both really enjoyed the Shadow route, particularly the fantastic final shaft, which made it all worth it.
 
-<figure class="figure">
-    <img src="/images/posts/ireby_fell/well_pitch.jpg" alt="Gracie descending the atmospheric Well Pitch in Ireby Fell Cavern" class="figure-img img-fluid rounded">
-    <figcaption class="text-center figure-caption">Gracie descending the atmospheric Well Pitch in Ireby Fell Cavern</figcaption>
-</figure>
+{% include image_figure.html url='/images/posts/ireby_fell/well_pitch.jpg' caption='Gracie descending the atmospheric Well Pitch in Ireby Fell Cavern.' %}
 
 There was a piece of in-situ tat, with lots of knots in it, hanging down from the roof with its tail end floating around just above the anchors for the final Y-hang. I wonder if anyone knows why this is here, what its use is, or if it is meant to aid the rigging in any way? I spent a good while pondering its utility, but in the end struggled to come up with anything.
 

@@ -19,10 +19,7 @@ Gracie and I, when visiting on 19th February 2022, got the impression that the c
 
 <!--more-->
 
-<figure class="figure">
-    <img src="/images/posts/knock_fell/radar_station_road.jpg" alt="The breath-taking views of the road up to the Great Dun Fell radar station" class="figure-img img-fluid rounded">
-    <figcaption class="text-center figure-caption">The views from the top of Knock Fell are breath-taking and the area is well worth a visit even if not headed underground.</figcaption>
-</figure>
+{% include image_figure.html url="/images/posts/knock_fell/radar_station_road.jpg" alt="The breath-taking views of the road up to the Great Dun Fell radar station" caption="The views from the top of Knock Fell are breath-taking and the area is well worth a visit even if not headed underground." %}
 
 Access to the cave is by way of a private road which was built to facilitate the construction of the [radar station][5] which sits atop Great Dun Fell. The road is not on many navigation devices, although it is exceptionally well surfaced. Parking at a [lay-by near the top][6] gives immediate access to the Pennine Way which can be followed for around 600 metres to get to the cave in ten minutes or less. The lay-by provides space for just one vehicle (or maybe not even that, if you have a big car), but there are several of them along the distance of the road and space for a couple or three cars together right at the top near the radar station gate.
 
@@ -30,10 +27,7 @@ The views from this area (above) are spectacular and it is well worth a visit ev
 
 [Users on UKCaving][12] have pointed out that the road may be in regular use by HGVs for access to the radar station and Silverband Mine. With this in mind, it would be prudent and polite to ensure that any parking gives due consideration to large vehicles that may be trying to traverse one of the sharp bends on the road. If you are in any doubt whether an HGV can clear your parked vehicle, it would be best to make your way to the top of the road where more space is available or avoid parking on the road at all. It would be unwise to cause issues that may inhibit access to this area in future; walking to the cave without the use of this road would take at least two hours (it is over 6 km and 600m elevation) and be prohibitive for most sporting trips.
 
-<figure class="figure">
-    <img src="/images/posts/knock_fell/knock_fell_entrance.jpg" alt="The entrance to Knock Fell Caverns" class="figure-img img-fluid rounded">
-    <figcaption class="text-center figure-caption">The entrance is on access land and was not locked when we visited, although the <a href="https://cncc.org.uk/cave/knock-fell-caverns">CNCC website</a> lists details of Natural England who request you email them before your trip.</figcaption>
-</figure>
+{% include image_figure.html url='/images/posts/knock_fell/knock_fell_entrance.jpg' alt='The entrance to Knock Fell Caverns' caption='The entrance is on access land and was not locked when we visited, although the <a href="https://cncc.org.uk/cave/knock-fell-caverns">CNCC website</a> lists details of Natural England who request you email them before your trip.' %}
 
 The entrance to the cave is a gated vertical shaft located in a group of deep shakeholes. GPS is strongly recommended to help locate the entrance! The 'lid' required quite a lot of persuasion to open and initially we were concerned we might be unable to do so - thankfully brute force and ignorance eventually prevailed. No permit is required to descend the system, as it is on access land, however the [CNCC website][1] states that Natural England request cavers seek authority to attend via email. In our case, the trip was planned at the last minute, and we did not have time to do so.
 
@@ -43,10 +37,7 @@ A compass is absolutely essential on this trip and is required as soon as you re
 
 We found the survey to be extremely accurate in the sections of cave that we visited, and our laminated copy [never left our hands][8]. The compass and survey allowed us to always be quite sure of our location, with one exception - detailed later. I cannot empathise enough how easy it would be to get dangerously lost within this system. A lot of the passages can look very similar and a constant awareness of your position, both generally and within the current passage, is required. We found ourselves backtracking occasionally to count the junctions we had passed, to ensure we took the correct turn. When we visit again, we will take a permanent marker to mark off our progress on the survey as we travel, as it was quite some effort to try and concentrate on maintaining our location in our heads without becoming distracted by chatting or crawling.
 
-<figure class="figure">
-    <img src="/images/posts/knock_fell/gracie_crawls.jpg" alt="Gracie crawling in Knock Fell Caverns" class="figure-img img-fluid rounded">
-    <figcaption class="text-center figure-caption">The cave contains a mixture of crawling, walking, stooping and tall rift traversing.</figcaption>
-</figure>
+{% include image_figure.html url="/images/posts/knock_fell/gracie_crawls.jpg" alt="Gracie crawling in Knock Fell Caverns" caption="The cave contains a mixture of crawling, walking, stooping and tall rift traversing." %}
 
 I have seen tales online of an old tape marker system which once existed within this cave. We did see some remnants of this - the odd bit of tape was laid on a rock at a junction, or perhaps one was seen to have fallen between some rocks on the floor, but it did not seem to produce any coherent navigation system and should not be relied upon. Some arrows had also been drawn on walls in certain locations, but it was not always clear what they were pointing to (one would assume out, but it didn't always make sense that this would be the case).
 
@@ -54,10 +45,7 @@ No route description exists that I am aware of (although I welcome [corrections]
 
 Whilst a good portion of the cave is pleasant walking passage, there are regular crawling sections and some parts that could reasonably be described as a squeeze. This seemed more prevalent in the southern and eastern sections of the cave, with the passage back to the entrance via the central area of the cave and the *Trans-Pennine Passage* being quite large chambers indeed. The benefit of having a route description is that one can expect that the next turn may be unpleasant - with just a survey and compass, we found ourselves staring at some junctions and wondering "Can the way on *really* be down there? Surely it's not *that*?". Often it was.
 
-<figure class="figure">
-    <img src="/images/posts/knock_fell/knock_fell_passage.jpg" alt="A typical passage within the system" class="figure-img img-fluid rounded">
-    <figcaption class="text-center figure-caption">A fault formed hypogenic passage with formations, typical of that within the Knock Fell Caverns system.</figcaption>
-</figure>
+{% include image_figure.html url="/images/posts/knock_fell/knock_fell_passage.jpg" alt="A typical passage within the system" caption="A fault formed hypogenic passage with formations, typical of that within the Knock Fell Caverns system." %}
 
 Knock Fell Caverns is a hypogenic maze cave, which means that it was not formed by way of an active stream, as with most British caves. *Caves and Karst of the Yorkshire Dales ([BCRA, 2013][10])* states that Knock Fell was likely formed by way of slow moving water from adjacent aquifers, at a time when the water table was raised. This water was forced along the north-south and east-west aligned faults over many years to produce the layout that is present today.
 
@@ -65,10 +53,7 @@ Some of the larger chambers in the cave may have been formed by way of rock coll
 
 The most notable implication of the way this system was formed is that there is very little water within the cave and no streamway to speak of. The passages within the system do not exhibit the typical remnants of active streamway development, such as scalloped walls. There are a few drippy avens, including one which has formed an impressively deep hole near *Scotch Corner Chamber*. We visited at the tail-end of [Storm Eunice][11] and the cave was remarkably dry.
 
-<figure class="figure">
-    <img src="/images/posts/knock_fell/larger_chamber.jpg" alt="A larger chamber in Knock Fell Caverns" class="figure-img img-fluid rounded">
-    <figcaption class="text-center figure-caption">One of the several larger chambers found in between the maze of interconnected passages.</figcaption>
-</figure>
+{% include image_figure.html url="/images/posts/knock_fell/larger_chamber.jpg" alt="A larger chamber in Knock Fell Caverns" caption="One of the several larger chambers found in between the maze of interconnected passages." %}
 
 The only stressful navigational moment during our visit was in the central section of the cave. We were progressing northwards and expecting to find a left turn at the end of the passage, as per the survey, but instead found a completely choked route when we arrived there. I *thought* that I had been very carefully monitoring our progress and position, but clearly something had gone wrong. Realising that I did not know where we were, I totally lost faith in my navigation at this point and decided that a complete re-evaluation was required.
 

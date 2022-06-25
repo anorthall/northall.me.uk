@@ -15,9 +15,6 @@ Intro
 
 <!--more-->
 
-<figure class="figure">
-    <img src="IMAGE_URL" alt="ALT_TEXT" class="figure-img img-fluid rounded">
-    <figcaption class="text-center figure-caption">IMAGE CAPTION</figcaption>
-</figure>
+{% include image_figure.html url='image/url.ext' alt='Alt text' caption='Image caption' %}
 
 Continued article
