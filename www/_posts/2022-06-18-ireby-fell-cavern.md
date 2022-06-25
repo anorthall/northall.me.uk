@@ -6,6 +6,7 @@ pub_date: 18th June, 2022
 author: Andrew Northall
 author_email: andrew@northall.me.uk
 avatar: /images/avatar_small.jpg
+banner: /images/posts/ireby_fell/shadow_route_banner.jpg
 tags: caving
 excerpt_separator: <!--more-->
 permalink: /posts/ireby-fell-cavern/
