@@ -16,8 +16,7 @@ permalink: /
 {% for post in site.posts %}
   {% if forloop.index > 1 %}<div class="divider div-transparent div-arrow-down mb-5 mt-5"></div>{% endif %}
 
-  <h1><a class="text-decoration-none faded-link" href="{{ post.url }}">{{ post.title }}</a></h1>
-
+  {% include title_small.html %}
   {% include author_box.html %}
 
   <div class="mb-4">

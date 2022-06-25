@@ -1,0 +1,12 @@
+{% include reading_time.html content=post.content %}
+
+<div class="container p-0 mb-0">
+  <div class="row">
+    <div class="col-md-auto">
+      <h1><a class="text-decoration-none faded-link" href="{{ post.url }}">{{ post.title }}</a></h1>
+    </div>
+    <div class="d-none d-md-block col text-end text-muted align-self-center">
+      {{ reading_time }}
+    </div>
+  </div>
+</div>
