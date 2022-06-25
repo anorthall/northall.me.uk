@@ -14,6 +14,10 @@ body {
   transition: color .15s ease-in-out,background-color .15s ease-in-out,border-color .15s ease-in-out;
 }
 
+.author-box {
+	color: #2c3e50;
+}
+
 .divider
 {
 	position: relative;
