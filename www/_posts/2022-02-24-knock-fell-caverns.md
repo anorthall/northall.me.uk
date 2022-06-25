@@ -4,6 +4,8 @@ title: Knock Fell Caverns
 description: A trip round the varied and unique passages of Knock Fell Caverns, in Cumbria.
 pub_date: 24th February, 2022
 author: Andrew Northall
+author_email: andrew@northall.me.uk
+avatar: http://gravatar.com/avatar/ab042a0540260fda631363da5fc33bfc?s=50
 tags: caving
 excerpt_separator: <!--more-->
 permalink: /posts/knock-fell-caverns/

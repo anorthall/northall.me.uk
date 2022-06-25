@@ -4,6 +4,8 @@ title: Article Title
 description: Article Description
 pub_date: 1st January, 2000
 author: Andrew Northall
+author_email: andrew@northall.me.uk
+avatar: http://gravatar.com/avatar/ab042a0540260fda631363da5fc33bfc?s=50
 tags: insert, tags, here
 excerpt_separator: <!--more-->
 permalink: /posts/ARTICLE-SHORT-URL/
