@@ -5,7 +5,7 @@ description: A trip down Ireby Fell Cavern on June 17th, 2022.
 pub_date: 18th June, 2022
 author: Andrew Northall
 author_email: andrew@northall.me.uk
-avatar: https://gravatar.com/avatar/ab042a0540260fda631363da5fc33bfc?s=50
+avatar: /images/avatar_small.jpg
 tags: caving
 excerpt_separator: <!--more-->
 permalink: /posts/ireby-fell-cavern/
