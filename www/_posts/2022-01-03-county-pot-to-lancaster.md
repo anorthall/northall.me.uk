@@ -5,7 +5,7 @@ description: A through trip from County Pot to Lancaster Hole, conducted on Chri
 pub_date: 3rd January, 2022
 author: Andrew Northall
 author_email: andrew@northall.me.uk
-avatar: http://gravatar.com/avatar/ab042a0540260fda631363da5fc33bfc?s=50
+avatar: https://gravatar.com/avatar/ab042a0540260fda631363da5fc33bfc?s=50
 tags: caving
 excerpt_separator: <!--more-->
 permalink: /posts/county-pot-to-lancaster-hole/
