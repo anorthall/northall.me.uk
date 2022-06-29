@@ -1,4 +1,6 @@
 <figure class="figure mt-3 mb-3">
-  <img src="{{ include.url }}" alt="{{ include.alt | default: include.caption }}" class="figure-img img-fluid rounded">
+  <a href="{{ include.url }}" target="_blank" alt="Link to image with the below caption">
+    <img src="{{ include.url }}" alt="{{ include.alt | default: include.caption }}" class="figure-img img-fluid rounded">
+  </a>
   <figcaption class="text-center figure-caption">{{ include.caption }}</figcaption>
 </figure>
