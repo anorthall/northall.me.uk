@@ -3,6 +3,8 @@
 WEB_ROOT=/home/andrew/www/northall.me.uk/www
 RUBY_VERSION=3.1.0
 
+echo "Starting northall.me.uk build..."
+
 # Setup environment
 set -eu
 cd "$(dirname "$0")"
@@ -13,24 +15,9 @@ rbenv rehash
 echo "Pulling from git..."
 git pull
 
-# Build simple-photo-gallery
-echo ""
-echo "Building photo gallery..."
-
-cd gallery
-# shellcheck source=/dev/null
-source ./venv/bin/activate
-gallery-build
-deactivate
-cd ..
-
-echo ""
-echo "Copying photo gallery to Jekyll..."
-cp gallery/public/index.html www/photos.html
-
 # Build Jekyll
-echo ""
 echo "Building Jekyll..."
+echo ""
 cd www
 eval "$(rbenv init -)"
 bundle exec jekyll build
@@ -43,9 +30,5 @@ rm -r ${WEB_ROOT:?}/*
 # Copy Jekyll files
 echo "Copying Jekyll generated files to web root..."
 cp -r _site/* $WEB_ROOT
-
-# Copy gallery images
-echo "Copying photo gallery images to web root..."
-cp -r ../gallery/public/images $WEB_ROOT/images/gallery
 
 echo "northall.me.uk build completed."
