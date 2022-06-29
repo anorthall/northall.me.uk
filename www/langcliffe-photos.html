@@ -3,6 +3,8 @@ title: Langcliffe Pot photos
 description: Photos of Langcliffe Pot, Great Whernside, by Andrew Northall.
 layout: default
 permalink: /photos/langcliffe/
+custom-css-list:
+  - "/css/lightbox.css"
 ---
 
 <h2 class="mt-3 display-5">
@@ -19,10 +21,18 @@ permalink: /photos/langcliffe/
 
   {% for row in site.data.langcliffe_gallery %}
     <figure class="figure mb-2">
-      <a href="{{ hq_prefix }}{{ row["Path"] }}.jpg" target="_blank">
+      <a href="{{ hq_prefix }}{{ row["Path"] }}.jpg" data-title="{{ row["Caption"] }}" data-lightbox="langcliffe" target="_blank">
         <img src="{{ sm_prefix }}{{ row["Path"] }}.jpg" alt="{{ row["Caption"] }}" class="figure-img img-fluid rounded">
       </a>
       <figcaption class="text-center figure-caption mt-2">{{ row["Caption"] }}</figcaption>
     </figure>
   {% endfor %}
 </div>
+
+<script src="/js/lightbox-plus-jquery.min.js"></script>
+<script>
+  lightbox.option({
+    'resizeDuration': 300,
+    'imageFadeDuration': 100,
+  })
+</script>

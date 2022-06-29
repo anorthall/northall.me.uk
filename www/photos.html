@@ -3,6 +3,8 @@ title: Andrew Northall - Photography
 description: A selection of photos taken by Andrew Northall.
 layout: default
 permalink: /photos/
+custom-css-list:
+  - "/css/lightbox.css"
 ---
 
 <div class="image-gallery mt-3">
@@ -11,9 +13,17 @@ permalink: /photos/
 
   {% for img in site.static_files %}
     {% if img.path contains "images/portfolio/hq" %}
-      <a href="{{ hq_prefix }}{{ img.name }}" target="_blank">
+      <a href="{{ hq_prefix }}{{ img.name }}" data-lightbox="portfolio" target="_blank">
         <img src="{{ sm_prefix }}{{ img.name }}" alt="A photograph by Andrew Northall" class="figure-img img-fluid rounded">
       </a>
     {% endif %}
   {% endfor %}
 </div>
+
+<script src="/js/lightbox-plus-jquery.min.js"></script>
+<script>
+  lightbox.option({
+    'resizeDuration': 300,
+    'imageFadeDuration': 300,
+  })
+</script>
