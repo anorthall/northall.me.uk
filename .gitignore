@@ -10,11 +10,5 @@ _site/
 # python venv
 venv/
 
-# simple-photo-gallery
-gallery/public/index.html
-gallery/public/images/thumbnails/*
-gallery/images_data.json
-www/photos.html
-
 # Mac
 .DS_Store

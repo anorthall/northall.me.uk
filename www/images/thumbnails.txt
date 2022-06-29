@@ -1,0 +1,1 @@
+Use this command: mogrify -verbose -format jpg -scale 25% -path ../sm *.jpg

@@ -1,0 +1,19 @@
+---
+title: Andrew Northall - Photography
+description: A selection of photos taken by Andrew Northall.
+layout: default
+permalink: /photos/
+---
+
+<div class="image-gallery mt-3">
+  {% assign hq_prefix = "/images/portfolio/hq/" %}
+  {% assign sm_prefix = "/images/portfolio/sm/" %}
+
+  {% for img in site.static_files %}
+    {% if img.path contains "images/portfolio/hq" %}
+      <a href="{{ hq_prefix }}{{ img.name }}" target="_blank" alt=" ">
+        <img src="{{ sm_prefix }}{{ img.name }}" alt=" " class="figure-img img-fluid rounded">
+      </a>
+    {% endif %}
+  {% endfor %}
+</div>
