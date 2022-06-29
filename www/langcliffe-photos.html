@@ -19,7 +19,7 @@ permalink: /photos/langcliffe/
 
   {% for row in site.data.langcliffe_gallery %}
     <figure class="figure mb-2">
-      <a href="{{ hq_prefix }}{{ row["Path"] }}.jpg" target="_blank" alt="{{ row["Caption"] }}">
+      <a href="{{ hq_prefix }}{{ row["Path"] }}.jpg" target="_blank">
         <img src="{{ sm_prefix }}{{ row["Path"] }}.jpg" alt="{{ row["Caption"] }}" class="figure-img img-fluid rounded">
       </a>
       <figcaption class="text-center figure-caption mt-2">{{ row["Caption"] }}</figcaption>

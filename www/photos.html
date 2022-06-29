@@ -11,8 +11,8 @@ permalink: /photos/
 
   {% for img in site.static_files %}
     {% if img.path contains "images/portfolio/hq" %}
-      <a href="{{ hq_prefix }}{{ img.name }}" target="_blank" alt=" ">
-        <img src="{{ sm_prefix }}{{ img.name }}" alt=" " class="figure-img img-fluid rounded">
+      <a href="{{ hq_prefix }}{{ img.name }}" target="_blank">
+        <img src="{{ sm_prefix }}{{ img.name }}" alt="A photograph by Andrew Northall" class="figure-img img-fluid rounded">
       </a>
     {% endif %}
   {% endfor %}
