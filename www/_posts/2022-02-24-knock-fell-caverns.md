@@ -7,7 +7,6 @@ author: Andrew Northall
 author_email: andrew@northall.me.uk
 avatar: /images/avatar_small.jpg
 banner: /images/posts/knock_fell/radar_station_road.jpg
-tags: caving
 excerpt_separator: <!--more-->
 permalink: /posts/knock-fell-caverns/
 ---

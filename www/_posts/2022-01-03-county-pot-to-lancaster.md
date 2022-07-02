@@ -6,7 +6,6 @@ pub_date: 3rd January, 2022
 author: Andrew Northall
 author_email: andrew@northall.me.uk
 avatar: /images/avatar_small.jpg
-tags: caving
 excerpt_separator: <!--more-->
 permalink: /posts/county-pot-to-lancaster-hole/
 ---
