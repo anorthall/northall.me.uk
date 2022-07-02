@@ -1,7 +1,7 @@
 ---
 layout: post
-title: My night in Langcliffe
-description: An overnight solo trip down Langcliffe Pot (via Oddmire Pot) on 28th June, 2022.
+title: My night in Langcliffe Pot
+description: A night-time solo trip down Langcliffe Pot (via Oddmire Pot) on 28th June, 2022.
 pub_date: 2nd July, 2022
 author: Andrew Northall
 author_email: andrew@northall.me.uk
