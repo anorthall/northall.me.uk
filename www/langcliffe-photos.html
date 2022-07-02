@@ -24,7 +24,7 @@ custom-css-list:
       <a href="{{ hq_prefix }}{{ row["Path"] }}.jpg" data-title="{{ row["Caption"] }}" data-lightbox="langcliffe" target="_blank">
         <img src="{{ sm_prefix }}{{ row["Path"] }}.jpg" alt="{{ row["Caption"] }}" class="figure-img img-fluid rounded">
       </a>
-      <figcaption class="text-center figure-caption mt-2">{{ row["Caption"] }}</figcaption>
+      <figcaption class="image-gallery-caption">{{ row["Caption"] }}</figcaption>
     </figure>
   {% endfor %}
 </div>
