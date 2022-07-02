@@ -11,6 +11,8 @@ excerpt_separator: <!--more-->
 permalink: /posts/langcliffe-pot/
 ---
 
+*A collection of images taken on this trip can be [found here][10].*
+
 It’s quite curious how the human brain perceives time without an outside reference. How long had I been crawling for? It was impossible to know. Could you call it crawling? Not hands and knees, but rather supporting myself with a single arm outstretched in the water and pushing myself sideways along the narrow passage. My helmet scrapes noisily on the rock ceiling and my waist is constricted by each opposite wall. Any sense of progress is impossible – the next bit of passage is completely indistinguishable from the last and all other parts. Had it been twenty minutes? Forty? An hour?
 
 Internally, I mull over whether there is a name for this eccentric method of sideways movement – generally, when people name a technique, it is because it is efficient, effective, or desirable – I’m not sure this is any of those. Everything is relative though, and it did seem to be the better option compared to crawling in the [brown muddy water][8]. 
@@ -55,7 +57,7 @@ Caves often seem to pass more quickly on the way out. This certainly wasn’t th
 
 Langcliffe Pot is an incredibly intriguing place and my unpleasant encounter with the squeeze in Boireau Falls Chamber has only renewed my enthusiasm to see what is on the other side. As soon as the weather is suitable, I’ll be back for round two.
 
-*A photo gallery of images taken on this trip can be [found here][10]. This report was [posted on UKCaving][14].*
+*This report was [posted on UKCaving][14], if you'd like to comment.*
 
 [1]: https://en.wikipedia.org/wiki/Langcliffe_Pot                                      "Wikipedia: Langcliffe Pot"
 [2]: https://cncc.org.uk/cave/langcliffe-pot                                           "CNCC: Langcliffe Pot"
