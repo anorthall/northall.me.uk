@@ -55,18 +55,19 @@ Caves often seem to pass more quickly on the way out. This certainly wasn’t th
 
 Langcliffe Pot is an incredibly intriguing place and my unpleasant encounter with the squeeze in Boireau Falls Chamber has only renewed my enthusiasm to see what is on the other side. As soon as the weather is suitable, I’ll be back for round two.
 
-*A photo gallery of images taken on this trip can be [found here][10].*
+*A photo gallery of images taken on this trip can be [found here][10]. This report was [posted on UKCaving][14].*
 
-[1]: https://en.wikipedia.org/wiki/Langcliffe_Pot                               "Wikipedia: Langcliffe Pot"
-[2]: https://cncc.org.uk/cave/langcliffe-pot                                    "CNCC: Langcliffe Pot"
-[3]: http://simonbeck.blogspot.com/2016/07/langcliffe-pot-via-oddmire.html      "Simon Beck: Langcliffe Pot via Oddmire"
-[4]: https://ukcaving.com/board/index.php?threads/langcliffe-pot-solo.22204/    "UKCaving: Langcliffe Pot solo"
-[5]: https://cncc.org.uk/cave/oddmire-pot                                       "CNCC: Oddmire Pot"
-[6]: /images/langcliffe/hq/langcliffe-28.jpg                                    "Image of the Boireau Falls squeeze"
-[7]: http://caving-library.org.uk/audio/playback-220.html                       "British Caving Library audio archive"
-[8]: /images/langcliffe/hq/langcliffe-01.jpg                                    "Image of Strid Passage"
-[9]: /images/langcliffe/hq/langcliffe-14.jpg                                    "Image of the Kilnsey Boulder Crawl"
-[10]: /photos/langcliffe                                                        "Langcliffe Pot image gallery"
-[11]: /images/langcliffe/hq/langcliffe-18.jpg                                   "Image of the Langstrothdale Chase streamway"
-[12]: /images/langcliffe/hq/langcliffe-24.jpg                                   "Panorama of Boireau Falls Chamber"
-[13]: https://starlessriver.com/shop/not-for-the-faint-hearted/                 "Buy Not for the Faint Hearted on Starless River"
+[1]: https://en.wikipedia.org/wiki/Langcliffe_Pot                                      "Wikipedia: Langcliffe Pot"
+[2]: https://cncc.org.uk/cave/langcliffe-pot                                           "CNCC: Langcliffe Pot"
+[3]: http://simonbeck.blogspot.com/2016/07/langcliffe-pot-via-oddmire.html             "Simon Beck: Langcliffe Pot via Oddmire"
+[4]: https://ukcaving.com/board/index.php?threads/langcliffe-pot-solo.22204/           "UKCaving: Langcliffe Pot solo"
+[5]: https://cncc.org.uk/cave/oddmire-pot                                              "CNCC: Oddmire Pot"
+[6]: /images/langcliffe/hq/langcliffe-28.jpg                                           "Image of the Boireau Falls squeeze"
+[7]: http://caving-library.org.uk/audio/playback-220.html                              "British Caving Library audio archive"
+[8]: /images/langcliffe/hq/langcliffe-01.jpg                                           "Image of Strid Passage"
+[9]: /images/langcliffe/hq/langcliffe-14.jpg                                           "Image of the Kilnsey Boulder Crawl"
+[10]: /photos/langcliffe                                                               "Langcliffe Pot image gallery"
+[11]: /images/langcliffe/hq/langcliffe-18.jpg                                          "Image of the Langstrothdale Chase streamway"
+[12]: /images/langcliffe/hq/langcliffe-24.jpg                                          "Panorama of Boireau Falls Chamber"
+[13]: https://starlessriver.com/shop/not-for-the-faint-hearted/                        "Buy Not for the Faint Hearted on Starless River"
+[14]: https://ukcaving.com/board/index.php?threads/my-night-in-langcliffe-pot.29659/   "UKCaving: My night in Langcliffe Pot"
