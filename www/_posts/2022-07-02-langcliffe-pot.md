@@ -6,7 +6,7 @@ pub_date: 2nd July, 2022
 author: Andrew Northall
 author_email: andrew@northall.me.uk
 avatar: /images/avatar_small.jpg
-banner: /images/langcliffe/post/post-banner.jpg
+header_image: /images/langcliffe/post/post_banner.jpg
 excerpt_separator: <!--more-->
 permalink: /posts/langcliffe-pot/
 custom-css-list:

@@ -6,7 +6,7 @@ pub_date: 24th February, 2022
 author: Andrew Northall
 author_email: andrew@northall.me.uk
 avatar: /images/avatar_small.jpg
-banner: /images/posts/knock_fell/radar_station_road.jpg
+header_image: /images/posts/knock_fell/radar_station_road.jpg
 excerpt_separator: <!--more-->
 permalink: /posts/knock-fell-caverns/
 ---

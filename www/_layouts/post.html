@@ -3,9 +3,14 @@ layout: default
 ---
 
 {% assign post = page %}
-{% include title_large.html %}
-{% include author_box.html %}
 
-<div>
-  {{ page.content }}
+<img src="{{ post.header_image | default: site.header_image }}" alt="Page banner" class="img-fluid mb-2 page-header-image">
+
+<div class="container">
+  <div class="col-xl-12">
+    {% include title_large.html %}
+    {% include author_box.html %}
+
+    {{ page.content }}
+  </div>
 </div>

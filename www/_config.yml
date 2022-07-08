@@ -5,3 +5,5 @@ plugins:
 
 feed:
   path: /posts/feed.atom
+
+header_image: "/images/site_banner.jpg"

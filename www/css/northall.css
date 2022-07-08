@@ -3,6 +3,17 @@ body {
   padding-top: 72px;
 }
 
+.page-header-image {
+	display: flex;
+	max-height: 400px;
+	background-size: cover;
+	object-fit: fill;
+	object-position: center;
+	width: 100%;
+	margin-left: auto;
+	margin-right: auto;
+}
+
 .faded-link {
   color: inherit;
   text-decoration: none;
