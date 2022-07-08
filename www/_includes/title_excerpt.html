@@ -1,14 +1,14 @@
 {% include reading_time.html content=post.content %}
 
-<div class="container p-0">
+<div class="container p-0 mb-0">
   <div class="row">
     <div class="col-auto">
-      <h1 class="display-4 align-self-center">
-        {{ page.title }}
+      <h1>
+        <a class="text-decoration-none faded-link" href="{{ post.url }}">{{ post.title }}</a>
       </h1>
     </div>
     <div class="d-none d-md-block col text-end text-muted align-self-center">
-      {{ reading_time }}
+      {{ reading_time }} &nbsp;&middot;&nbsp; {{ post.pub_date }}
     </div>
   </div>
 </div>

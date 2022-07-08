@@ -7,17 +7,15 @@ permalink: /
 
 <!-- <img src="/images/avatar.jpg" class="d-none d-md-block col-md-4 mb-3 ms-md-3 rounded-circle border border-4 float-sm-end" alt="A photo of me"> -->
 
-<h2 class="display-5">
-    Blog <small class="text-muted">Recent Posts</small>
-</h2>
-
-<hr class="col-4 mt-2 mb-3">
+<h3 class="mb-3 mt-3 faint-underline">
+  <strong>Blog</strong> <span class="text-muted">Latest Posts</span>
+</h3>
 
 {% for post in site.posts %}
   {% if forloop.index > 1 %}<div class="divider div-transparent div-arrow-down mb-5 mt-5"></div>{% endif %}
 
-  {% include title_small.html %}
-  {% include author_box.html %}
+  {% include title_excerpt.html %}
+  <!-- {% include author_box.html %} -->
 
   <div class="mb-4">
     {{ post.excerpt }}

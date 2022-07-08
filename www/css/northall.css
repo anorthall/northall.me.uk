@@ -14,6 +14,13 @@ body {
 	margin-right: auto;
 }
 
+.faint-underline {
+	text-decoration-color: #c6c7c8 !important;
+	text-decoration: underline;
+	text-decoration-thickness: 1px;
+	text-underline-offset: 12px;
+}
+
 .faded-link {
   color: inherit;
   text-decoration: none;
