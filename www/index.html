@@ -14,7 +14,8 @@ permalink: /
 {% for post in site.posts %}
   {% if forloop.index > 1 %}<div class="divider div-transparent div-arrow-down mb-5 mt-5"></div>{% endif %}
 
-  {% include title_excerpt.html %}
+  {% assign link_title = true %}
+  {% include post_title.html %}
   <!-- {% include author_box.html %} -->
 
   <div class="mb-4 mt-2">
