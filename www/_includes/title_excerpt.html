@@ -3,7 +3,7 @@
 <div class="container p-0 mb-0">
   <div class="row">
     <div class="col-auto">
-      <h1>
+      <h1 class="mb-0">
         <a class="text-decoration-none faded-link" href="{{ post.url }}">{{ post.title }}</a>
       </h1>
     </div>
@@ -11,4 +11,8 @@
       {{ reading_time }} &nbsp;&middot;&nbsp; {{ post.pub_date }}
     </div>
   </div>
+</div>
+
+<div class="d-md-none mt-0 text-muted">
+  <em>{{ post.pub_date }} &nbsp;&middot;&nbsp; {{ reading_time }}</em>
 </div>

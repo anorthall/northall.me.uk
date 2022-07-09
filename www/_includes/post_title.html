@@ -1,15 +1,19 @@
 {% include reading_time.html content=post.content %}
 {% assign post = page %}
 
-<div class="container p-0">
+<div class="container p-0 mb-0">
   <div class="row">
     <div class="col-auto">
-      <h1 class="display-5 align-self-center">
+      <h1 class="align-self-center mb-0">
         {{ post.title }}
       </h1>
     </div>
     <div class="d-none d-md-block col text-end text-muted align-self-center">
-      {{ reading_time }}
+      {{ reading_time }} &nbsp;&middot;&nbsp; {{ post.pub_date }}
     </div>
   </div>
+</div>
+
+<div class="d-md-none mt-0 text-muted">
+  <em>{{ post.pub_date }} &nbsp;&middot;&nbsp; {{ reading_time }}</em>
 </div>
