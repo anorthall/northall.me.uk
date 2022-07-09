@@ -21,6 +21,9 @@
     <!-- FontAwesome -->
     <link href="/css/fontawesome/css/all.css" rel="stylesheet">
 
+    <!-- Lightbox -->
+    <link href="/css/lightbox.css" rel="stylesheet">
+    
     <!-- Page specific stylesheets -->
     {% for css in page.custom-css-list %}
     <link href="{{ css }}" rel="stylesheet">
@@ -56,8 +59,18 @@
       </div>
     </footer>
 
+    <!-- Bootstrap JS -->
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.0/dist/js/bootstrap.bundle.min.js" integrity="sha384-U1DAWAznBHeqEIlVSCgzq+c9gqGAJn5c/t99JyeKa9xxaYpSvHU5awsuZVVFIhvj" crossorigin="anonymous"></script>
     
+    <!-- Lightbox JS -->
+    <script src="/js/lightbox-plus-jquery.min.js"></script>
+    <script>
+      lightbox.option({
+        'resizeDuration': 300,
+        'imageFadeDuration': 100,
+      })
+    </script>
+
     {% for javascript in page.custom-javascript-list %}
     <script src="{{ javascript }}"></script>
     {% endfor %}

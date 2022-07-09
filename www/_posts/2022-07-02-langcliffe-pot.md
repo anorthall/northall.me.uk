@@ -9,8 +9,6 @@ avatar: /images/avatar_small.jpg
 header_image: /images/langcliffe/post/post_banner.jpg
 excerpt_separator: <!--more-->
 permalink: /posts/langcliffe-pot/
-custom-css-list:
-  - "/css/lightbox.css"
 ---
 
 *A collection of images taken on this trip can be [found here][1].*
@@ -60,14 +58,6 @@ Caves often seem to pass more quickly on the return journey. This certainly wasn
 Langcliffe Pot is an incredibly intriguing place and my unpleasant encounter with the squeeze in Boireau Falls Chamber has only renewed my enthusiasm to see what is on the other side. As soon as the weather is suitable, I’ll be back for round two.
 
 *This report was [posted on UKCaving][8], if you'd like to comment.*
-
-<script src="/js/lightbox-plus-jquery.min.js"></script>
-<script>
-  lightbox.option({
-    'resizeDuration': 300,
-    'imageFadeDuration': 100,
-  })
-</script>
 
 [1]: /photos/langcliffe                                                                "Langcliffe Pot image gallery"
 [2]: https://cncc.org.uk/cave/oddmire-pot                                              "CNCC: Oddmire Pot"
