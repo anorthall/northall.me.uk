@@ -13,7 +13,7 @@ custom-css-list:
   - "/css/lightbox.css"
 ---
 
-*A collection of images taken on this trip can be [found here][1].*
+<span class="text-muted fst-italic">A collection of images taken on this trip can be [found here][1].</span>
 
 It’s quite curious how the human brain perceives time without an outside reference. How long had I been crawling for? It was impossible to know. Could you call it crawling? Not hands and knees, but rather supporting myself with a single arm outstretched in the water and pushing myself sideways along the narrow passage. My helmet scrapes noisily on the rock ceiling and my waist is constricted by each opposite wall. Any sense of progress is impossible – the next bit of passage is completely indistinguishable from the last and all other parts. Had it been twenty minutes? Forty? An hour?
 
