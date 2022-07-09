@@ -1,19 +1,43 @@
+/* Padding for static navbar */
 body {
   overflow-y: scroll;
   padding-top: 72px;
 }
 
+
+/* Page header image */
 .page-header-image {
-	display: flex;
-	max-height: 400px;
-	background-size: cover;
-	object-fit: fill;
+	object-fit: cover;
 	object-position: center;
 	width: 100%;
-	margin-left: auto;
-	margin-right: auto;
 }
 
+@media (max-width: 992px) {
+	.page-header-image {
+		height: 180px;
+	}
+}
+
+@media (min-width: 992px) {
+	.page-header-image {
+	  height: 250px;
+	}
+}
+
+@media (min-width: 1200px) {
+	.page-header-image {
+	  height: 300px;
+	}
+}
+
+@media (min-width: 1400px) {
+	.page-header-image {
+	  height: 400px;
+	}
+}
+
+
+/* Faint underline and faded link for titles */
 .faint-underline {
 	text-decoration-color: #c6c7c8 !important;
 	text-decoration: underline;
@@ -32,6 +56,8 @@ body {
   transition: color .15s ease-in-out,background-color .15s ease-in-out,border-color .15s ease-in-out;
 }
 
+
+/* Author box */
 .author-box {
 	color: #2c3e50;
 }
@@ -40,6 +66,8 @@ body {
 	max-width: 50px;
 }
 
+
+/* Post divider */
 .divider
 {
 	position: relative;
@@ -74,9 +102,11 @@ body {
 	border-right: 1px solid rgb(48,49,51);
 }
 
+
+/* Image gallery */
 .image-gallery {
 	line-height: auto;
-	column-count: 3;
+	column-count: 4;
 	column-gap: 5px;
 }
 
@@ -100,11 +130,17 @@ body {
 
 @media (max-width: 1400px) {
 	.image-gallery {
+	 column-count:         3;
+	}
+}
+
+@media (max-width: 1200px) {
+	.image-gallery {
 	 column-count:         2;
 	}
 }
 
-@media (max-width: 800px) {
+@media (max-width: 992px) {
 	.image-gallery {
 	 column-count:         1;
 	}
