@@ -152,12 +152,5 @@ body {
 .sota-box {
 	padding: 10px;
 	text-align: center;
-}
-
-.sota-iframe {
 	overflow-x: auto;
-	overflow-y: hidden;
-	border: none;
-	width: 520px;
-	height: 300px;
 }
