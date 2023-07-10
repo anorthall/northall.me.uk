@@ -1,0 +1,8 @@
+{% macro img_figure(src, alt, caption) %}
+  <figure class="figure my-4">
+    <a href="{{ src }}" target="_blank">
+      <img src="{{ src }}" alt="{{ alt }}" class="figure-img img-fluid rounded">
+    </a>
+    <figcaption class="text-center figure-caption">{{ caption }}</figcaption>
+  </figure>
+{% endmacro %}

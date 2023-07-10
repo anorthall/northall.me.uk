@@ -1,0 +1,10 @@
+{% macro lightbox(src, caption, id, text) %}
+  <a class="text-decoration-none"
+     href="{{ src }}"
+     data-title="{{ caption }}"
+     data-lightbox="{{ id }}"
+     target="_blank">
+    {{ text }}
+    <i class="bi bi-camera-fill"></i>
+  </a>
+{% endmacro %}

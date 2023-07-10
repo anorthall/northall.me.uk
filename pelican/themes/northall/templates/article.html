@@ -1,0 +1,68 @@
+{% extends "base.html" %}
+
+{% block html_lang %}{{ article.lang }}{% endblock %}
+
+{% block title %}{{ article.title|striptags }}{% endblock %}
+
+{% block head %}
+  {{ super() }}
+
+  <link rel="stylesheet" href="{{ SITEURL }}/{{ THEME_STATIC_DIR }}/lightbox2/css/lightbox.min.css">
+  <script src="{{ SITEURL }}/{{ THEME_STATIC_DIR }}/js/jquery-3.7.0.min.js"></script>
+  <script src="{{ SITEURL }}/{{ THEME_STATIC_DIR }}/lightbox2/js/lightbox.min.js"></script>
+
+  {% import 'translations.html' as translations with context %}
+  {% if translations.entry_hreflang(article) %}
+    {{ translations.entry_hreflang(article) }}
+  {% endif %}
+
+  {% if article.description %}
+    <meta name="description" content="{{article.description}}" />
+  {% endif %}
+
+  {% for tag in article.tags %}
+    <meta name="tags" content="{{ tag }}" />
+  {% endfor %}
+{% endblock %}
+
+{% block content %}
+  {% if article.banner %}
+    <img src="{{ article.banner }}" class="img-fluid rounded shadow mb-5" alt="{{ article.title|striptags }}">
+  {% endif %}
+
+  <section id="content" class="body">
+    <header class="entry-title border-bottom pb-2">
+      <div class="row">
+        <div class="col-auto">
+          <h2 class="align-self-center display-5 mb-0">
+            <a href="{{ SITEURL }}/{{ article.url }}" rel="bookmark"
+               class="text-decoration-none text-body" title="Permalink to {{ article.title|striptags }}">
+              {{ article.title }}
+            </a>
+          </h2>
+        </div>
+        <div class="d-none d-lg-block col text-end text-muted align-self-center">
+          <time class="published" datetime="{{ article.date.isoformat() }}">{{ article.locale_date }}</time>
+        </div>
+      </div>
+    </header>
+
+    <div class="entry-content mb-4 mt-5">
+      {{ article.content }}
+    </div>
+
+
+    <div class="text-muted">
+      Last updated:
+      {% if article.modified %}
+        <time class="modified" datetime="{{ article.modified.isoformat() }}">
+          {{ article.locale_modified }}
+        </time>
+      {% elif article.published %}
+        <time class="modified" datetime="{{ article.date.isoformat() }}">
+          {{ article.locale_date }}
+        </time>
+      {% endif %}
+    </div>
+  </section>
+{% endblock %}

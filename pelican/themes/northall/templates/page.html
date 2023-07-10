@@ -1,0 +1,55 @@
+{% extends "base.html" %}
+
+{% block html_lang %}{{ page.lang }}{% endblock %}
+
+{% block title %}{{ page.title|striptags }}{% endblock %}
+
+{% block head %}
+  {{ super() }}
+
+  <link rel="stylesheet" href="{{ SITEURL }}/{{ THEME_STATIC_DIR }}/lightbox2/css/lightbox.min.css">
+  <script src="{{ SITEURL }}/{{ THEME_STATIC_DIR }}/js/jquery-3.7.0.min.js"></script>
+  <script src="{{ SITEURL }}/{{ THEME_STATIC_DIR }}/lightbox2/js/lightbox.min.js"></script>
+
+  {% if page.description %}
+    <meta name="description" content="{{ page.description }}" />
+  {% endif %}
+
+  {% for tag in page.tags %}
+    <meta name="tags" content="{{ tag }}" />
+  {% endfor %}
+{% endblock %}
+
+{% block content %}
+  {% if page.banner %}
+    <img src="{{ page.banner }}" class="img-fluid rounded shadow mb-5" alt="{{ page.title|striptags }}">
+  {% endif %}
+
+  <section id="content" class="body">
+    <header class="entry-title border-bottom pb-2">
+      <div class="row">
+        <div class="col-auto">
+          <h2 class="align-self-center display-5 mb-0">
+            <a href="{{ SITEURL }}/{{ page.url }}" rel="bookmark"
+               class="text-decoration-none text-body" title="Permalink to {{ page.title|striptags }}">
+              {{ page.title }}
+            </a>
+          </h2>
+        </div>
+      </div>
+    </header>
+
+    <div class="entry-content mb-4 mt-5">
+      {{ page.content }}
+    </div>
+
+    {% if page.modified %}
+      <div class="text-muted">
+        Last updated:
+        <time class="modified" datetime="{{ page.modified.isoformat() }}">
+          {{ page.locale_modified }}
+        </time>
+      </div>
+    {% endif %}
+  </section>
+{% endblock %}
