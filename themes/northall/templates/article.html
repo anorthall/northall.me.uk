@@ -27,7 +27,7 @@
 
 {% block content %}
   {% if article.banner %}
-    <img src="{{ article.banner }}" class="img-fluid rounded shadow mb-5" alt="{{ article.title|striptags }}">
+    <img src="{{ SITEURL }}/{{ article.banner }}" class="img-fluid rounded shadow mb-5" alt="{{ article.title|striptags }}">
   {% endif %}
 
   <section id="content" class="body">

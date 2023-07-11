@@ -22,7 +22,7 @@
 
 {% block content %}
   {% if page.banner %}
-    <img src="{{ page.banner }}" class="img-fluid rounded shadow mb-5" alt="{{ page.title|striptags }}">
+    <img src="{{ SITEURL }}/{{ page.banner }}" class="img-fluid rounded shadow mb-5" alt="{{ page.title|striptags }}">
   {% endif %}
 
   <section id="content" class="body">
