@@ -58,7 +58,7 @@
       </p>
 
       <p>
-        I have been administering Linux systems as a hobby for at least a decade, and I'm comfortable with
+        I have been administering Linux systems as a hobby for a decade, and I'm comfortable with
         modern techniques and tooling such as containerised applications, CI/CD pipelines, cloud infrastructure,
         agile development practices, version control, DRY and TDD.
       </p>
@@ -80,15 +80,20 @@
 
       {% for article in articles_page.object_list %}
         <article class="mb-4">
-          <header>
-            <h4>
+          <header class="mb-2">
+            <h4 class="mb-0">
               <span class="me-1">&#x2B50;</span>
               <a href="{{ SITEURL }}/{{ article.url }}" rel="bookmark" title="Permalink to {{ article.title|striptags }}"
                  class="text-decoration-none">
                 {{ article.title }}
               </a>
-              <small class="text-muted">{{ article.locale_date }}</small>
+              <small class="text-muted d-none d-lg-inline">
+                <time class="published" datetime="{{ article.date.isoformat() }}">{{ article.locale_date }}</time>
+              </small>
             </h4>
+            <small class="text-muted d-lg-none">
+              <time class="published" datetime="{{ article.date.isoformat() }}">{{ article.locale_date }}</time>
+            </small>
           </header>
 
           <div>
