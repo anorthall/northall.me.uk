@@ -1,38 +1,101 @@
 {% extends "base.html" %}
 
 {% block content %}
-<section id="content">
-  {% block content_title %}
-    <h2>Recent posts</h2>
-  {% endblock %}
+  <!-- <img src="/images/site_banner.jpg" class="img-fluid rounded shadow mb-5" alt="Lancaster Hole cave system"> -->
+  <section id="homepage-content w-100">
+    <div class="text-center d-xl-none mb-5">
+      <img src="/images/avatar.jpg" alt="Andrew Northall" class="avatar rounded rounded-circle shadow border border-body">
+    </div>
+    
+    <div class="d-flex justify-content-between mb-5">
+      <div class="h-100">
+        <h2 class="mb-3">Hello <span class="header-emoji">&#x1F44B;</span></h2>
 
-  <ol id="post-list">
-    {% for article in articles_page.object_list %}
-      <li>
-        <article class="hentry">
+        <p class="lead">I'm Andrew Northall, a caver, cyclist, and amateur software engineer from the UK.</p>
+
+        <p class="mb-4">I'm currently working on a few projects, including:</p>
+
+        <ul id="project-list">
+          <li>
+            My cave trip tracking software, <a href="https://github.com/anorthall/caves.app">caves.app</a>, built on Python/Django.
+          </li>
+
+          <li>
+            Making small open source contributions to the <a href="https://github.com/django/django/commits?author=anorthall">Django project</a>.
+          </li>
+
+          <li>
+            Studying <a href="https://www.rust-lang.org/">Rust</a> to improve my understanding of low-level programming.
+          </li>
+
+          <li>
+            Volunteering with the <a href="https://caves.org/">NSS</a> to digitise their archive of caving publications.
+          </li>
+        </ul>
+      </div>
+
+      <div class="h-100 align-self-center ms-4 d-none d-xl-flex">
+        <img src="/images/avatar.jpg" alt="Andrew Northall" class="avatar rounded rounded-circle shadow border border-body">
+      </div>
+    </div>
+
+    <div id="about-me" class="mb-5">
+      <h3 class="mb-3">About me <span class="header-emoji">&#x1F4AD;</span></h3>
+
+      <p class="lead">
+        I've been programming for fun since I was a teenager, and have really focused on sharpening my skills in the last year or two.
+      </p>
+
+      <p>
+        I consider myself to be a proficient web developer, with a strong understanding of Python, Django, HTML and CSS, and
+        a working knowledge of JavaScript.
+      </p>
+
+      <p>
+        Although I am an amateur in the sense that I have never been paid to write software, I always strive to write professional
+        code that is clean, well-tested and maintainable. I'm a big believer in open source software, and I have recently started
+        giving back to the community by making contributions where time allows.
+      </p>
+
+      <p>
+        I have been administering Linux systems as a hobby for at least a decade, and I'm comfortable with
+        modern techniques and tooling such as containerised applications, CI/CD pipelines, cloud infrastructure,
+        agile development practices, version control, DRY and TDD.
+      </p>
+
+      <p>
+        My enthusiasm for tech is huge, and I'm always looking for new opportunities and ways improve my skills. If you have
+        an something I might be interested in, or you'd just like to chat, please do
+        <a href="mailto:andrew@northall.me.uk">get in touch</a>.
+      </p>
+
+      <p>
+        Apart from all that, I'm a keen caver, cyclist and hiker, and like building electronics projects that make use of my
+        <a href="/radio/">amateur radio licence</a> when time allows.
+      </p>
+    </div>
+
+    <div id="blog">
+      <h3 class="mb-4">Blog posts <span class="header-emoji">&#x1F58A;</span></h3>
+
+      {% for article in articles_page.object_list %}
+        <article class="mb-4">
           <header>
-            <h2 class="entry-title">
-              <a href="{{ SITEURL }}/{{ article.url }}" rel="bookmark" title="Permalink to {{ article.title|striptags }}">{{ article.title }}</a>
-            </h2>
+            <h4>
+              <span class="me-1">&#x2B50;</span>
+              <a href="{{ SITEURL }}/{{ article.url }}" rel="bookmark" title="Permalink to {{ article.title|striptags }}"
+                 class="text-decoration-none">
+                {{ article.title }}
+              </a>
+              <small class="text-muted">{{ article.locale_date }}</small>
+            </h4>
           </header>
 
-          <footer class="post-info">
-            <time class="published" datetime="{{ article.date.isoformat() }}"> {{ article.locale_date }}</time>
-            <address class="vcard author">By
-              {% for author in article.authors %}
-                <a class="url fn" href="{{ SITEURL }}/{{ author.url }}">{{ author }}</a>
-              {% endfor %}
-            </address>
-          </footer>
-
-          <div class="entry-content">{{ article.summary }}</div>
+          <div>
+            {{ article.summary }}
+          </div>
         </article>
-      </li>
-    {% endfor %}
-  </ol>
-
-  {% if articles_page.has_other_pages() %}
-    {% include 'pagination.html' %}
-  {% endif %}
-</section>
+      {% endfor %}
+    </div>
+  </section>
 {% endblock content %}

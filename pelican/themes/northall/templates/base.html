@@ -10,6 +10,7 @@
 
       <link rel="stylesheet" href="{{ SITEURL }}/{{ THEME_STATIC_DIR }}/css/bootstrap.min.css">
       <link rel="stylesheet" href="{{ SITEURL }}/{{ THEME_STATIC_DIR }}/bootstrap-icons/bootstrap-icons.css">
+      <link rel="stylesheet" href="{{ SITEURL }}/{{ THEME_STATIC_DIR }}/css/core.css">
 
       <script src="{{ SITEURL }}/{{ THEME_STATIC_DIR }}/js/bootstrap.bundle.min.js"></script>
       <script src="{{ SITEURL }}/{{ THEME_STATIC_DIR }}/js/colour-modes.js"></script>
@@ -95,13 +96,27 @@
       </ul>
     </div>
 
-    <div class="col-lg-8 mx-auto p-4 py-md-5">
-      <header class="d-flex align-items-center mb-5">
-        <a href="{{ SITEURL }}/" class="d-flex align-items-center text-body-emphasis text-decoration-none">
+    <div class="col-lg-8 mx-auto p-4 py-md-5" id="main-container">
+      <header class="d-flex justify-content-between mb-5">
+        <a href="/" class="d-flex align-items-center text-body-emphasis text-decoration-none">
           <span class="fs-3">
-            {{ SITENAME }}{% if SITESUBTITLE %} <strong>{{ SITESUBTITLE }}</strong>{% endif %}
+            <span class="d-none d-sm-inline">Andrew</span> Northall
           </span>
         </a>
+
+        <nav class="d-flex align-items-center">
+          <a class="mx-2 px-1 text-decoration-none border-bottom border-emphasis text-body-emphasis pb-1" href="/">
+            <i class="bi bi-house"></i> Home
+          </a>
+
+          <a class="mx-2 px-1 text-decoration-none border-bottom border-emphasis text-body-emphasis pb-1" href="/radio/">
+            <i class="bi bi-broadcast-pin"></i> Radio
+          </a>
+
+          <a class="mx-2 px-1 text-decoration-none border-bottom border-emphasis text-body-emphasis pb-1" href="https://github.com/anorthall/">
+            <i class="bi bi-github"></i>  GitHub
+          </a>
+        </nav>
       </header>
 
       <main>
