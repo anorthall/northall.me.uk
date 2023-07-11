@@ -6,7 +6,7 @@ Category: Caving
 Tags: caving
 Slug: titan
 Banner: /images/posts/titan/titan_post_banner.jpg
-Summary: A trip down (and back up) Titan, the UK's largest natural cave shaft.
+Summary: A trip down (and back up) Titan, the UK's largest natural cave shaft at 141 metres deep.
 
 {% from 'img_figure.html' import img_figure %}
 

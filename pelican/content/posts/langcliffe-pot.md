@@ -6,7 +6,7 @@ Category: Caving
 Tags: caving
 Slug: langcliffe-pot
 Banner: /images/posts/langcliffe/langcliffe_post_banner.jpg
-Summary: A night-time solo trip down Langcliffe Pot (via Oddmire Pot) on 28th June, 2022.
+Summary: Report of a solo trip down Langcliffe Pot, one of the most curious cave systems in the UK.
 
 {% from 'img_figure.html' import img_figure %}
 {% from 'lightbox.html' import lightbox %}

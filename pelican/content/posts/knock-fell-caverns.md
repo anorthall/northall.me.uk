@@ -6,7 +6,7 @@ Category: Caving
 Tags: caving
 Slug: knock-fell-caverns
 Banner: /images/posts/knock_fell/knock_fell_post_banner.jpg
-Summary: A trip round the varied and unique passages of Knock Fell Caverns, in Cumbria.
+Summary: Information about the varied and unique underground maze that is Knock Fell Caverns.
 
 {% from 'img_figure.html' import img_figure %}
 

@@ -6,7 +6,7 @@ Category: Caving
 Tags: caving
 Slug: ireby-fell-cavern
 Banner: /images/posts/ireby_fell/ireby_post_banner.jpg
-Summary: A trip down Ireby Fell Cavern on June 17th, 2022.
+Summary: A trip down Ireby Fell Cavern, a network of underground stream passages in the Yorkshire Dales.
 
 {% from 'img_figure.html' import img_figure %}
 
