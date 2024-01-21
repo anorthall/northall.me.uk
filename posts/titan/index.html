@@ -1,0 +1,195 @@
+<!doctype html>
+<html lang="en" data-bs-theme="auto">
+  <head>
+        <meta charset="utf-8">
+      <meta name="viewport" content="width=device-width, initial-scale=1">
+      <meta name="author" content="Andrew Northall">
+      <meta name="generator" content="Pelican">
+      <title>Titan</title>
+
+      <link rel="stylesheet" href="https://northall.me.uk/assets/css/bootstrap.min.css">
+      <link rel="stylesheet" href="https://northall.me.uk/assets/bootstrap-icons/bootstrap-icons.css">
+      <link rel="stylesheet" href="https://northall.me.uk/assets/css/core.css">
+
+      <script src="https://northall.me.uk/assets/js/bootstrap.bundle.min.js"></script>
+      <script src="https://northall.me.uk/assets/js/colour-modes.js"></script>
+
+      <!-- Google tag (gtag.js) -->
+      <script async src="https://www.googletagmanager.com/gtag/js?id=G-7YNB33KDEX"></script>
+      <script>
+        window.dataLayer = window.dataLayer || [];
+        function gtag(){dataLayer.push(arguments);}
+        gtag('js', new Date());
+
+        gtag('config', 'G-7YNB33KDEX');
+      </script>
+      
+      <link href="https://northall.me.uk/feeds/all.atom.xml" type="application/atom+xml" rel="alternate" title="Andrew Northall Full Atom Feed" />
+      <link href="https://northall.me.uk/feeds/caving.atom.xml" type="application/atom+xml" rel="alternate" title="Andrew Northall Categories Atom Feed" />
+
+
+  <link rel="stylesheet" href="https://northall.me.uk/assets/lightbox2/css/lightbox.min.css">
+  <script src="https://northall.me.uk/assets/js/jquery-3.7.0.min.js"></script>
+  <script src="https://northall.me.uk/assets/lightbox2/js/lightbox.min.js"></script>
+
+
+
+    <meta name="tags" content="caving" />
+  </head>
+
+  <body>
+    <!-- Colour mode toggle SVGs -->
+    <svg xmlns="http://www.w3.org/2000/svg" style="display: none;">
+      <symbol id="check2" viewBox="0 0 16 16">
+        <path d="M13.854 3.646a.5.5 0 0 1 0 .708l-7 7a.5.5 0 0 1-.708 0l-3.5-3.5a.5.5 0 1 1 .708-.708L6.5 10.293l6.646-6.647a.5.5 0 0 1 .708 0z"/>
+      </symbol>
+      <symbol id="circle-half" viewBox="0 0 16 16">
+        <path d="M8 15A7 7 0 1 0 8 1v14zm0 1A8 8 0 1 1 8 0a8 8 0 0 1 0 16z"/>
+      </symbol>
+      <symbol id="moon-stars-fill" viewBox="0 0 16 16">
+        <path d="M6 .278a.768.768 0 0 1 .08.858 7.208 7.208 0 0 0-.878 3.46c0 4.021 3.278 7.277 7.318 7.277.527 0 1.04-.055 1.533-.16a.787.787 0 0 1 .81.316.733.733 0 0 1-.031.893A8.349 8.349 0 0 1 8.344 16C3.734 16 0 12.286 0 7.71 0 4.266 2.114 1.312 5.124.06A.752.752 0 0 1 6 .278z"/>
+        <path d="M10.794 3.148a.217.217 0 0 1 .412 0l.387 1.162c.173.518.579.924 1.097 1.097l1.162.387a.217.217 0 0 1 0 .412l-1.162.387a1.734 1.734 0 0 0-1.097 1.097l-.387 1.162a.217.217 0 0 1-.412 0l-.387-1.162A1.734 1.734 0 0 0 9.31 6.593l-1.162-.387a.217.217 0 0 1 0-.412l1.162-.387a1.734 1.734 0 0 0 1.097-1.097l.387-1.162zM13.863.099a.145.145 0 0 1 .274 0l.258.774c.115.346.386.617.732.732l.774.258a.145.145 0 0 1 0 .274l-.774.258a1.156 1.156 0 0 0-.732.732l-.258.774a.145.145 0 0 1-.274 0l-.258-.774a1.156 1.156 0 0 0-.732-.732l-.774-.258a.145.145 0 0 1 0-.274l.774-.258c.346-.115.617-.386.732-.732L13.863.1z"/>
+      </symbol>
+      <symbol id="sun-fill" viewBox="0 0 16 16">
+        <path d="M8 12a4 4 0 1 0 0-8 4 4 0 0 0 0 8zM8 0a.5.5 0 0 1 .5.5v2a.5.5 0 0 1-1 0v-2A.5.5 0 0 1 8 0zm0 13a.5.5 0 0 1 .5.5v2a.5.5 0 0 1-1 0v-2A.5.5 0 0 1 8 13zm8-5a.5.5 0 0 1-.5.5h-2a.5.5 0 0 1 0-1h2a.5.5 0 0 1 .5.5zM3 8a.5.5 0 0 1-.5.5h-2a.5.5 0 0 1 0-1h2A.5.5 0 0 1 3 8zm10.657-5.657a.5.5 0 0 1 0 .707l-1.414 1.415a.5.5 0 1 1-.707-.708l1.414-1.414a.5.5 0 0 1 .707 0zm-9.193 9.193a.5.5 0 0 1 0 .707L3.05 13.657a.5.5 0 0 1-.707-.707l1.414-1.414a.5.5 0 0 1 .707 0zm9.193 2.121a.5.5 0 0 1-.707 0l-1.414-1.414a.5.5 0 0 1 .707-.707l1.414 1.414a.5.5 0 0 1 0 .707zM4.464 4.465a.5.5 0 0 1-.707 0L2.343 3.05a.5.5 0 1 1 .707-.707l1.414 1.414a.5.5 0 0 1 0 .708z"/>
+      </symbol>
+    </svg>
+
+    <!-- Colour mode dropdown -->
+    <div class="dropdown position-fixed bottom-0 end-0 mb-3 me-3 bd-mode-toggle">
+      <button class="btn btn-bd-primary py-2 dropdown-toggle d-flex align-items-center"
+              id="bd-theme"
+              type="button"
+              aria-expanded="false"
+              data-bs-toggle="dropdown"
+              aria-label="Toggle theme (auto)">
+        <svg class="bi my-1 theme-icon-active" width="1em" height="1em"><use href="#circle-half"></use></svg>
+        <span class="visually-hidden" id="bd-theme-text">Toggle theme</span>
+      </button>
+      <ul class="dropdown-menu dropdown-menu-end shadow" aria-labelledby="bd-theme-text">
+        <li>
+          <button type="button" class="dropdown-item d-flex align-items-center" data-bs-theme-value="light" aria-pressed="false">
+            <svg class="bi me-2 opacity-50 theme-icon" width="1em" height="1em"><use href="#sun-fill"></use></svg>
+            Light
+            <svg class="bi ms-auto d-none" width="1em" height="1em"><use href="#check2"></use></svg>
+          </button>
+        </li>
+        <li>
+          <button type="button" class="dropdown-item d-flex align-items-center" data-bs-theme-value="dark" aria-pressed="false">
+            <svg class="bi me-2 opacity-50 theme-icon" width="1em" height="1em"><use href="#moon-stars-fill"></use></svg>
+            Dark
+            <svg class="bi ms-auto d-none" width="1em" height="1em"><use href="#check2"></use></svg>
+          </button>
+        </li>
+        <li>
+          <button type="button" class="dropdown-item d-flex align-items-center active" data-bs-theme-value="auto" aria-pressed="true">
+            <svg class="bi me-2 opacity-50 theme-icon" width="1em" height="1em"><use href="#circle-half"></use></svg>
+            Auto
+            <svg class="bi ms-auto d-none" width="1em" height="1em"><use href="#check2"></use></svg>
+          </button>
+        </li>
+      </ul>
+    </div>
+
+    <div class="col-lg-8 mx-auto p-4 py-md-5" id="main-container">
+      <header class="d-flex justify-content-between mb-5">
+        <a href="https://northall.me.uk/" class="d-flex align-items-center text-body-emphasis text-decoration-none">
+          <span class="fs-3">
+            <span class="d-none d-sm-inline">Andrew</span> Northall
+          </span>
+        </a>
+
+        <nav class="d-flex align-items-center">
+          <a class="mx-2 px-1 text-decoration-none border-bottom border-emphasis text-body-emphasis pb-1" href="https://caves.app/u/andrew/">
+            <i class="bi bi-globe-europe-africa d-none d-md-inline"></i> Caves
+          </a>
+
+          <a class="mx-2 px-1 text-decoration-none border-bottom border-emphasis text-body-emphasis pb-1" href="https://northall.me.uk/radio/">
+            <i class="bi bi-broadcast-pin d-none d-md-inline"></i> Radio
+          </a>
+
+          <a class="mx-2 px-1 text-decoration-none border-bottom border-emphasis text-body-emphasis pb-1" href="https://github.com/anorthall/">
+            <i class="bi bi-github d-none d-md-inline"></i>  GitHub
+          </a>
+        </nav>
+      </header>
+
+      <main>
+    <img src="https://northall.me.uk//images/posts/titan/titan_post_banner.jpg" class="img-fluid rounded shadow mb-5" alt="Titan">
+
+  <section id="content" class="body">
+    <header class="entry-title border-bottom pb-2">
+      <div class="row">
+        <div class="col-auto">
+          <h2 class="align-self-center display-5 mb-0">
+            <a href="https://northall.me.uk/posts/titan/" rel="bookmark"
+               class="text-decoration-none text-body" title="Permalink to Titan">
+              Titan
+            </a>
+          </h2>
+        </div>
+        <div class="d-none d-lg-block col text-end text-muted align-self-center">
+          <time class="published" datetime="2022-01-05T00:00:00+00:00">05 January 2022</time>
+        </div>
+      </div>
+      <div class="d-lg-none text-muted">
+        <time class="published" datetime="2022-01-05T00:00:00+00:00">05 January 2022</time>
+      </div>
+    </header>
+
+    <div class="entry-content my-4">
+      <p>On New Year's Day, Gracie and I had the opportunity to take a trip down to the bottom of <a href="https://en.wikipedia.org/wiki/Titan_(cave)">Titan</a>, the largest natural cave shaft in the UK, which comes in at 141 metres from top to bottom. The total vertical distance covered in the trip is 174 metres (including the entrance shaft) &mdash; 16 metres taller than the <a href="https://en.wikipedia.org/wiki/Blackpool_Tower">Blackpool Tower</a>. We had been looking forward to this trip for some time and the excitement was palpable when we picked up the keys at 10am. Originally, we had been a team of six, however due to the events of the night before (New Year's Eve), only the two of us remained &mdash; we were not looking forward to carrying three backpacks and two drybags full of kit one and a half miles up Castleton Fell between us!</p>
+<p>I have made a video of this trip and it is <a href="https://www.youtube.com/watch?v=Jp1Ak2l7bew">available on my YouTube channel</a>. I've narrated the video with some information regarding the history of the cave and I really think it will help you get a better idea of what it is like to be down there. Text and images don't quite do this natural wonder any justice &mdash; but then again, I'm not sure video can replace being there either.</p>
+<p>The walk turned out to not be as bad as expected &mdash; the weather was dry and overcast, although quite windy, and we managed to reach the entrance in around an hour maintaining a slow and steady pace. The route through Cave Dale to the top of Hurd Low (where the entrance is situated) was beautiful, even if we did get some strange looks from the early morning holiday walkers. </p>
+<figure class="figure my-4">
+    <a href="/images/posts/titan/carrying_the_kit.jpg" target="_blank">
+      <img src="/images/posts/titan/carrying_the_kit.jpg" alt="Gracie and I carrying the vast amounts of kit and rope required for the trip." class="figure-img img-fluid rounded">
+    </a>
+    <figcaption class="text-center figure-caption">Gracie and I carrying the vast amounts of kit required for the trip: over 200m of rope, first aid kits, food, water, and more.</figcaption>
+  </figure>
+
+<p>After leaving the Limestone Way and making a short trek across a field we located the entrance &mdash; or at least we thought. I opened the rusty metal lid only to find grass underneath. It seemed like some kind of practical joke &mdash; we had walked all this way, with all this kit, only to find that someone had filled the entrance in and the cave was impassable. It was certainly the right location as it had a notice to cavers regarding specifics of the Peak-Speedwell system stuck to the underside of the hatch. Somewhat deflated, we picked up our kit again and made one final search which thankfully located the <em>real</em> entrance. Whether the rusty hatch was an old access point which had since been filled in, or an old lid that had been removed, I am not sure. I do know that we will not be the first, or last, cavers to make this mistake as the "false" entrance is much more prominent than the real one.</p>
+<p>Gracie set to work kitting up whilst I started unlocking the entrance (a tricky manoeuvre trying not to drop the key) and rigging the first pitch. The man-made shaft which forms the entrance to the system is truly impressive and the amount of work that must've gone into creating it is evident. When Titan was re-discovered in 1999 by <a href="http://news.bbc.co.uk/1/hi/england/leicestershire/6122884.stm">Dave Nixon</a>, it was first entered from the bottom via <a href="https://www.peakspeedwell.info/">Peak Cavern</a>. It took Dave and his team three years to find a way into the shaft from the existing system, followed by a six day climb to get to the top, and then over four years of work to create 46 metre entrance shaft that exists today. Dave's contribution to the caving community is exceptional and we wouldn't be able to enjoy this incredible cave today without it.</p>
+<p>The spacious entrance shaft is easy to rig (you can do it from the surface) and provided a pleasant descent down to a standing height chamber at the bottom. This looked rather wet from above but this was an illusion and only a small puddle was found once we arrived. There are two ways on here, described now as if you are facing the corrugated iron shoring which supports one wall. The stooping height passage to the left leads to the head of Titan's main shaft, and the other passage (to the right) leads to a dig which we did not explore.</p>
+<figure class="figure my-4">
+    <a href="/images/posts/titan/titan_entrance.jpg" target="_blank">
+      <img src="/images/posts/titan/titan_entrance.jpg" alt="Me standing next to the entrance to Titan on the summit of Hurd Low." class="figure-img img-fluid rounded">
+    </a>
+    <figcaption class="text-center figure-caption">Me standing next to the Titan entrance shaft on the summit of Hurd Low.</figcaption>
+  </figure>
+
+<p>The way on to Titan is not more than fifteen to twenty metres long and was filled with a pool of static water when we were there &mdash; this was calf to knee deep and was the first indication of just how wet we would get on this trip. Quickly the window in the top of the 141 metre shaft was located and we gained our first sense of the scale of the task ahead of us. Gracie set to work rigging whilst I took some video footage of the top &mdash; rather inconveniently there is nowhere near the pitch head to rest your bags without them getting soaking wet! </p>
+<p>I was prepared for Titan to be extremely deep, but I had not quite grasped how horizontally large it is. The shaft (at the top) has three distinct sides of which two narrow off into the darkness across from the window. I could not locate the end of this narrowing section, even when using my 12,000 lumen torch on full power. Looking downward provided a similar sensation &mdash; the Event Horizon (the ledge halfway down the shaft) was only some 70 metres below us but I was not able to see it at all, at least not from the angle I had.</p>
+<p>The top of the shaft is decorated with thick and intricate <a href="https://en.wikipedia.org/wiki/Flowstone">flowstone</a>, shining a beautiful bright white after being untouched by anything but water for hundreds of thousands of years. The shapes formed by this continuous sheet which extended down some sixty metres were fine examples of nature's geometry and I could've spent hours looking at them.</p>
+<p>There is a prominent echo in Titan, not only of your own voice but also of the water crashing down over 100 metres below. This water sounds extremely ominous when in the cave, even in dry conditions such as which we had. As you descend the shaft this gets louder and can deceive you as to how much water is actually flowing. In our case, the waterfall wasn't significant however it certainly sounded it and we did ponder whether the bottom would be too wet to pass before we were able to see it.</p>
+<figure class="figure my-4">
+    <a href="/images/posts/titan/looking_up_titan.jpg" target="_blank">
+      <img src="/images/posts/titan/looking_up_titan.jpg" alt="A view of Gracie ascending Titan's main shaft, as viewed from the bottom." class="figure-img img-fluid rounded">
+    </a>
+    <figcaption class="text-center figure-caption">A view of Gracie ascending Titan's main shaft, as viewed from the bottom.</figcaption>
+  </figure>
+
+<p>The descent of the first Titan pitch went off without a hitch and we soon found ourselves at the Event Horizon, which was rather more spacious than I was expecting. There is enough room for several people to sit down and provided a welcome break in the progress downwards. The environment changes at this point, with the waterfall joining at this level from Cascades Inlet. The flowstone lining the walls above disappears and clean washed rock is observed on all sides instead. The shaft is now significantly noisier, and a number of loose stones cling on to the 45 degree slope &mdash; great care must be taken not to dislodge them and send them hurtling down onto any cavers that may be below.</p>
+<p>We are now just 58 metres above the floor beneath us, having covered 62 metres in the first pitch and 46 metres in the entrance shaft &mdash; almost there! Gracie was already rigging the rebelay when I arrived and soon proceeded down the remaining slope and disappeared over the side of the ledge. Having lost sight of her, I was rather impatient, shouting "Are you done yet? I'm cold!". When the "rope free" call finally came I saw for myself the rather technical and completely free-hanging rebelay which she had been rigging, and any notion of her taking too long was forgiven. </p>
+<p>I was probably a bit too hasty in making my way down there, as when I arrived Gracie had only descended some five metres and I had to sit at the very wet rebelay for some time before she was sighted on the bottom and I could start my descent proper. Nonetheless, this gave me a good opportunity to look around and the view of her head torch descending into the black was breath-taking.</p>
+<p>As I made my way down the rope, I recall looking up and down to try and gauge my progress and seeing only darkness in both directions. Usually when hanging off a rope, you can at least gain some sense of progress from the visual cues around you, but I was struck by how surreal it was to be descending from the black above only to enter further into the unknown below. The final pitch gets progressively wetter as you get deeper, and ends with a thorough soaking in the last ten to fifteen metres as you enter the path of the waterfall proper. I got off the rope as quickly as I could (unceremoniously landing on my backside instead of my feet) and ran up the boulder choke to escape the water flow. It was too little too late, though, as I was completely soaked head to toe.</p>
+<p>The bottom of the gigantic chamber was an awe-inspiring place to be and we sat on the bench (wooden plank across two boulders) to take in the view before us. I managed to light the bottom of the shaft up with my torch and this gave an excellent sense of scale and allowed for some nice photos of Gracie ascending (seen above). We were glad that we were only a team of two &mdash; the foot of the waterfall was a very draughty place and it became quite cold rather quickly. It seems to me that three to four people would be an absolute maximum for a Titan up-and-down trip, with two to three being ideal to avoid being frozen solid at the bottom.</p>
+<p>After about fifteen minutes we started to make our way back out of the cave which was hard work but passed without issue. The final upwards slog through the entrance shaft was quite unwelcome but even the bitterly cold wind that met us outside could not dampen our spirits - the sense of achievement was huge, and this trip is a must for any enthusiastic vertical caver.</p>
+    </div>
+
+
+    <div class="text-muted">
+      Last updated:
+        <time class="modified" datetime="2022-01-05T00:00:00+00:00">
+          05 January 2022
+        </time>
+    </div>
+  </section>
+      </main>
+
+      <footer class="pt-3 mt-5 mb-2 text-body-secondary border-top">
+        Copyright &copy; 2021 &mdash; 2024 <a class="link-secondary" href="mailto:andrew@northall.me.uk">Andrew Northall</a>
+      </footer>
+    </div>
+  </body>
+</html>
