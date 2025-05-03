@@ -1,0 +1,37 @@
+body {
+  overflow-y: scroll;
+}
+
+[data-bs-theme=light] body {
+  background-color: #fdfbf0;
+}
+
+.avatar {
+  max-width: 250px;
+}
+
+#main-container {
+  max-width: 1000px;
+}
+
+.header-emoji {
+  margin-left: 5px;
+}
+
+a i.bi {
+  margin-right: 5px;
+}
+
+@counter-style project-counter {
+  system: cyclic;
+  symbols: "\1F30D" "\1F40D" "\1F680" "\1F4DA";
+  suffix: '   ';
+}
+
+#project-list {
+  list-style-type: project-counter;
+}
+
+#project-list li {
+  margin-bottom: 8px;
+}
