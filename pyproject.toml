@@ -1,0 +1,12 @@
+[project]
+name = "northall-me-uk"
+version = "1.0.0"
+description = "Personal website"
+readme = "README.md"
+requires-python = ">=3.13"
+dependencies = [
+    "pelican",
+    "Markdown",
+    "pelican-jinja2content",
+    "ghp-import",
+]
