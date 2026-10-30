@@ -2,7 +2,7 @@ name: Deploy
 
 on:
   push:
-    branches: [main]
+    branches: [main, worktree-hetzner-deploy]
   workflow_dispatch:
 
 concurrency:
